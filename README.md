@@ -1,4 +1,5 @@
 <small>
+
 ## Java полное руководство - Герберт Шилдт, 10-е издание, 2018 г.
 
 [Глава 6. "Введение в классы"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/ "Chapter06")
@@ -22,5 +23,7 @@
 >>[DemoBoxWeight02 - Пример, где наследование применяется для расширения класса](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DemoBoxWeight02.java)
 >
 ></details>
+
 </details>
+
 </small>
