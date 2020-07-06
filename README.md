@@ -7,10 +7,12 @@
 [Глава 7. "Подробное рассмотрение классов и методов"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/ "Chapter07")
 
 <details><summary>Глава 8. "Наследование"</summary>
+
 ><details><summary>Основы наследования</summary>
+
 >>[SimpleInheritance01 - Простой пример наследования (стр. 221)](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/SimpleInheritance01.java)
 >>Как только суперкласс, который определяет общие свойства объекта, будет создан, он может наследоваться для разработки специализированных классов. Каждый подкласс добавляет собственные особые характеристики. В этом и состоит вся суть наследования.
-</details>
+></details>
 
 </details>
 </small>
