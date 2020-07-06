@@ -1,0 +1,66 @@
+package Chapter08;
+
+// Применение динамического полиморфизма
+class Figure {
+    double side1;
+    double side2;
+
+    Figure(double a, double b) {
+        side1 = a;
+        side2 = b;
+    }
+
+    double area() {
+        System.out.print("Площадь фигуры не определена : ");
+        return 0;
+    }
+}
+
+class Rectangle extends Figure {
+
+    Rectangle(double a, double b) {
+        super(a, b);
+    }
+
+    double area() {
+        System.out.print("Площадь четырехугольника : ");
+        return side1 * side2;
+    }
+}
+
+class Triangle extends Figure {
+
+	Triangle(double a, double b) {
+        super(a, b);
+    }
+
+	double area()	{
+	    System.out.print("Площадь треугольника : ");
+        return side1 * side2 / 2;
+    }
+
+}
+
+class FigureFindArea10 {
+    public static void main(String[] args) {
+        Figure ob = new Figure(2,3);
+        Rectangle obR = new Rectangle(2, 3);
+        Triangle obT = new Triangle(2, 3);
+        Figure ref;
+
+        ref = ob;
+        System.out.println(ob.area());
+
+        ref = obR;
+        System.out.println(ref.area());
+
+        ref = obT;
+        System.out.println(ref.area());
+
+    }
+}
+/* -------------------------------
+Площадь фигуры не определена : 0.0
+Площадь четырехугольника : 6.0
+Площадь треугольника : 3.0
+*/
