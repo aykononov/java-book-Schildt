@@ -8,7 +8,7 @@
 
 ### Глава 8. "Наследование"
 
-[SimpleInheritance01 - Простой пример наследования (стр. 221)](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/SimpleInheritance01.java)
+>[SimpleInheritance01 - Простой пример наследования (стр. 221)](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/SimpleInheritance01.java)
 ><details><summary>Подробнее...</summary>
 >Как только суперкласс, который определяет общие свойства объекта, будет создан, он может наследоваться для разработки специализированных классов. Каждый подкласс добавляет собственные особые характеристики. В этом и состоит вся суть наследования.
 ></details>
@@ -46,7 +46,8 @@
 ></deatails>
 >
 >
-><details><summary>[DynamicMethodDispatching09 - Динамическая диспетчеризация методов. (стр. 239 - 240)](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DynamicMethodDispatching09.java)</summary>
+>[DynamicMethodDispatching09 - Динамическая диспетчеризация методов. (стр. 239 - 240)](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DynamicMethodDispatching09.java)</summary>
+><details><summary>Подробнее...</summary>
 >Динамическая диспетчеризация методов - это механизм, с помощью которого вызов переопределенного метода разрешается во время выполнения, а не компиляции.
 >
 >Ссылочная переменная из Суперкласса может ссылаться на объект Подкласса. Когда переопределенный метод вызывается по ссылке на Суперкласс, нужный вариант этого метода выбирается в Java в зависимости от типа объекта, на который делается ссылка в момент вызова.
