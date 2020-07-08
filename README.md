@@ -2,10 +2,38 @@
 
 ## Java полное руководство - Герберт Шилдт, 10-е издание, 2018 г.
 ### The Complete Reference Java - Herbert Schildt, Tenth Edition, 2018
-[Глава 6. "Введение в классы"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/ "Chapter06")
+
+<details><summary>Глава 3. "Типы данных, переменные и массивы"</summary>
+
+>(Стр. 79)
+>[Глава 3. "Типы данных, переменные и массивы"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/ "Chapter03")
+
+</details>
+
+<details><summary>Глава 4. "Операции"</summary>
+
+>(Стр. 109)
+>[Глава 4. "Операции"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ "Chapter04")
+
+</details>
+
+<details><summary>Глава 5. "Управляющие операторы"</summary>
+
+>(Стр. 131)
+>[Глава 5. "Управляющие операторы"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ "Chapter05")
+
+</details>
+
+<details><summary>Глава 6. "Введение в классы"</summary>
+
+>(Стр. 163)
+>[Глава 6. "Введение в классы"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/ "Chapter06")
+
+</details>
 
 <details><summary>Глава 7. "Подробное рассмотрение классов и методов"</summary>
 
+>(Стр. 185)
 >[Глава 7. "Подробное рассмотрение классов и методов"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/ "Chapter07")
 </details>
 
