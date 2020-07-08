@@ -311,6 +311,14 @@
 >
 ></details>
 
-</details>
+<details><summary>Глава 9. "Пакеты и интерфейсы"</summary>
+
+><details><summary>Определение пакета (стр. 250)</summary>
+>
+>> Пакеты являются контейнерами классов. Они служат для разделения пространств имен класса.  
+>>
+>>[SimpleInheritance01 - Простой пример наследования](https://github.com/aykononov/JavaSchildt/blob/master/Chapter09/SimpleInheritance01.java)
+>
+></details>
 
 </small>
