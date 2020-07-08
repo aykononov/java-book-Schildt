@@ -336,6 +336,7 @@
 ><details><summary>Пример доступа к пакетам. (стр. 254)</summary>
 >
 >>[Chapter09/pkg01/MainDemo - получить экземпляры различных классов из пакета pkg01](https://github.com/aykononov/JavaSchildt/blob/master/Chapter09/pkg01/MainDemo.java)
+>
 >>[Chapter09/pkg01/MainDemo - получить экземпляры различных классов из пакета pkg02](https://github.com/aykononov/JavaSchildt/blob/master/Chapter09/pkg02/MainDemo.java)
 >
 ></details>
