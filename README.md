@@ -6,35 +6,36 @@
 <details><summary>Глава 3. "Типы данных, переменные и массивы"</summary>
 
 >(Стр. 79)
->[Глава 3. "Типы данных, переменные и массивы"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/ "Chapter03")
+>[Глава 3. "Типы данных, переменные и массивы" - только примеры](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/ "Chapter03")
 
 </details>
 
 <details><summary>Глава 4. "Операции"</summary>
 
 >(Стр. 109)
->[Глава 4. "Операции"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ "Chapter04")
+>[Глава 4. "Операции" - только примеры](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ "Chapter04")
 
 </details>
 
 <details><summary>Глава 5. "Управляющие операторы"</summary>
 
 >(Стр. 131)
->[Глава 5. "Управляющие операторы"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ "Chapter05")
+>[Глава 5. "Управляющие операторы" - только примеры](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ "Chapter05")
 
 </details>
 
 <details><summary>Глава 6. "Введение в классы"</summary>
 
 >(Стр. 163)
->[Глава 6. "Введение в классы"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/ "Chapter06")
+>[Глава 6. "Введение в классы" - только примеры](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/ "Chapter06")
 
 </details>
 
 <details><summary>Глава 7. "Подробное рассмотрение классов и методов"</summary>
 
 >(Стр. 185)
->[Глава 7. "Подробное рассмотрение классов и методов"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/ "Chapter07")
+>[Глава 7. "Подробное рассмотрение классов и методов" - только примеры](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/ "Chapter07")
+
 </details>
 
 <details><summary>Глава 8. "Наследование"</summary>
