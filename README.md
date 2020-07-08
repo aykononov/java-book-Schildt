@@ -1,10 +1,13 @@
 <small>
 
 ## Java полное руководство - Герберт Шилдт, 10-е издание, 2018 г.
-
+### The Complete Reference Java - Herbert Schildt, Tenth Edition, 2018
 [Глава 6. "Введение в классы"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/ "Chapter06")
 
-[Глава 7. "Подробное рассмотрение классов и методов"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/ "Chapter07")
+<details><summary>Глава 7. "Подробное рассмотрение классов и методов"</summary>
+
+>[Глава 7. "Подробное рассмотрение классов и методов"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/ "Chapter07")
+</details>
 
 <details><summary>Глава 8. "Наследование"</summary>
 
