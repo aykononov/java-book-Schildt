@@ -1,7 +1,6 @@
 <small>
 
 ## Java полное руководство - Герберт Шилдт, 10-е издание, 2018.  
-### The Complete Reference Java - Herbert Schildt, Tenth Edition, 2018.
 
 <details><summary>Глава 1. "История и развитие языка Java"</summary>
 
