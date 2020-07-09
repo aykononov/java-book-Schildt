@@ -1,5 +1,5 @@
 package Chapter05;
-
+// Простой пример применения оператора switch
 public class SampleSwitch {
     public static void main(String[] args) {
         System.out.println("Пример применения оператора switch\n");
