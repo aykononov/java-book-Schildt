@@ -1,5 +1,5 @@
 package Chapter04;
-
+// Составные операции с присваиванием
 public class OpEquals {
     public static void main(String[] args) {
         int a = 1;
@@ -15,3 +15,9 @@ public class OpEquals {
         System.out.println("c = " + c);
     }
 }
+/* ----------------------------
+Составные операции присваивания.
+a = 6
+b = 8
+c = 3
+ */

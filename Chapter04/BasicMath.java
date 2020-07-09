@@ -1,5 +1,5 @@
 package Chapter04;
-
+// Продемонстрировать основные арифметические операции
 public class BasicMath {
     public static void main(String[] args) {
         System.out.println("Целочисленная арифметика.");
