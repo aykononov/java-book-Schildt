@@ -225,10 +225,10 @@
 >[ForEach - Пример цикла for в стиле for each](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ForEach.java "Посмотреть пример")  
 >[ForEachDuoArray - Применение цикла for в стиле for each для обращения к двухмерному массиву](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ForEachDuoArray.java "Посмотреть пример")  
 >[BreakWhile - Применение оператора break во вложенных циклах](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/BreakWhile.java "Посмотреть пример")  
->[BreakToLabel - Применение оператора Ьreak с меткой для выхода из вложенных циклов.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/DoWhile.java "Посмотреть пример")  
+>[BreakToLabel - Применение оператора Ьreak с меткой для выхода из вложенных циклов.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/BreakToLabel.java "Посмотреть пример")  
 >[Continue - Продемонстрировать применение оператора continue](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/Continue.java "Посмотреть пример")  
 >[Return - Оператор return немедленно прекращает выполнение метода, в теле которого он находится.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/Return.java "Посмотреть пример")  
->[ContinueLabel - Применение оператора continue с меткой](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/DoWhile.java "Посмотреть пример")  
+>[ContinueLabel - Применение оператора continue с меткой](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ContinueLabel.java "Посмотреть пример")  
 
 </details>
 
