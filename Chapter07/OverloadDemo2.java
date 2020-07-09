@@ -1,5 +1,5 @@
+package Chapter07;
 // Применить автоматическое преобразование типов к перегрузке
-package Chapter06;
 class OverLoad2 {
     void test() {
         System.out.println("Пapaмeтpы отсутствуют");
@@ -28,8 +28,7 @@ class OverloadDemo2 {
         od.test(123.45); // вызывается вариант метода test(douЬle)
     }
 }
-/*
------------------------------
+/* -----------------------------
 Пapaмeтpы отсутствуют
 a: 10, b: 20
 Bнyтpeннee преобразование при вызове test(double) a: 88.0
