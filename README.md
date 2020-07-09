@@ -180,7 +180,7 @@
 >(Стр. 109)
 >
 >[BasicMath - Продемонстрировать основные арифметические операции](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/BasicMath.java "Посмотреть пример")  
->[Modulus - Операция деления по модулю % (возвращает остаток от деления)](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Modulus.java "Посмотреть пример")  
+>[Modulus - Операция деления по модулю "%" (возвращает остаток от деления)](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Modulus.java "Посмотреть пример")  
 >[OpEquals - Составные операции с присваиванием](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/OpEquals.java "Посмотреть пример")  
 >
 >**Поразрядные операции в Java**  
@@ -199,10 +199,11 @@
 >"<<="  - Сдвиг влево с присваиванием  
 >
 >[BitLogic - Продемонстрировать применение поразрядных логических операций](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/BitLogic.java "Посмотреть пример")  
+>[HexByte - Маскирование двоичных разрядов расширения знака](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/HexByte.java "Посмотреть пример")  
 >[ByteShift - Сдвиг влево значения типа byte](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ByteShift.java "Посмотреть пример")  
 >[ByteLeft - Сдвиг влево](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ByteLeft.java "Посмотреть пример")  
 >
->**Операции отношения(сравнения)**
+>**Операции отношения(сравнения)**  
 >"=="   - Равно  
  "!="   - Не равно  
  ">"    - Больше  
@@ -210,7 +211,21 @@
  ">="   - Больше или равно  
  "<="   - Меньше или равно
 >
->[Modulus - Операция деления по модулю% возвращает остаток от деления](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Modulus.java "Посмотреть пример")  
+>**Логические операции**  
+>&  - Логическая операция И  
+ |  - Логическая операция ИЛИ  
+ ^  - Логическая операция исключающее ИЛИ  
+ || - Укороченная логическая операция ИЛИ  
+ && - Укороченная логическая операция И  
+ !  - Логическая унарная операция НЕ  
+ &= - Логическая операция И с присваиванием  
+ |= - Логическая операция ИЛИ с присваиванием  
+ ^= - Логическая операция исключающее ИЛИ с присваиванием  
+ == - Равенство  
+ != - Неравенство  
+ ?: - Тернарная условная операция типа если"., то"., иначе".
+>
+>[Ternary - Продемонстрировать применение тернарной операции "?"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Ternary.java "Посмотреть пример")  
 >[Modulus - Операция деления по модулю% возвращает остаток от деления](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Modulus.java "Посмотреть пример")  
 </details>
 
