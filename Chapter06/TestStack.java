@@ -1,6 +1,6 @@
-// Применение класса Stack
-package Chapter06;
 
+package Chapter06;
+// Применение класса Stack
 public class TestStack {
     public static void main (String[] args) {
         Stack mystack1 = new Stack();
@@ -22,8 +22,7 @@ public class TestStack {
             System.out.print(mystack2.pop() + " ");
     }
 }
-/*
--------------------------------------
+/* -------------------------------------
 Содержимое стека (mystack1):
 9 8 7 6 5 4 3 2 1 0
 Содержимое стека (mystack2):

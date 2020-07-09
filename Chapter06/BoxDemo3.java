@@ -1,6 +1,6 @@
-// В этой программе применяется метод с параметрами
-package Chapter06;
 
+package Chapter06;
+// В этой программе применяется метод с параметрами
 class Box3 {
     double width;
     double height;
@@ -33,8 +33,7 @@ public class BoxDemo3 {
     }
 }
 
-/*
--------------
+/* -------------
 Объем (mybox3) = 3000.0
 Объем (mybox4) = 162.0
  */

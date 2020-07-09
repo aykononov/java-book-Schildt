@@ -1,5 +1,5 @@
 package Chapter06;
-
+// Перегрузка методов
 class Box5 {
     double width;
     double height;
@@ -44,8 +44,7 @@ public class BoxDemo5 {
     }
 }
 
-/*
------------------------------
+/* -----------------------------
 Объем (mybox5): 3000.0
 Объем (mybox6): -1.0
 Объем (mybox7): 343.0
