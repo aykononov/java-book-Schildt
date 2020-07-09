@@ -226,7 +226,7 @@
  ?: - Тернарная условная операция типа если"., то"., иначе".
 >
 >[Ternary - Продемонстрировать применение тернарной операции "?"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Ternary.java "Посмотреть пример")  
->[Modulus - Операция деления по модулю% возвращает остаток от деления](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Modulus.java "Посмотреть пример")  
+  
 </details>
 
 <details><summary>Глава 5. "Управляющие операторы"</summary>
