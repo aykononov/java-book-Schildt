@@ -1,6 +1,6 @@
-// Двумерный массив
-package Chapter03;
 
+package Chapter03;
+// Двумерный массив
 public class TwoDArray {
     public static void main(String[] args) {
 

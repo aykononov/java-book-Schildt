@@ -1,6 +1,6 @@
 package Chapter03;
-
-public class MyArray2 {
+// Пример трехмерного массива
+public class ThreeArray {
     public static void main(String[] args) {
         int countArr = 3;
         int rowsArr = 3;

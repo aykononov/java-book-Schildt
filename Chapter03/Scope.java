@@ -1,5 +1,5 @@
 package Chapter03;
-
+// Продемонстрировать область видимости блока кода
 public class Scope {
     public static void main(String[] args) {
         int x;

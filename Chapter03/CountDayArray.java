@@ -1,4 +1,5 @@
 package Chapter03;
+// Усовершенствованная версия предыдущей программы
 public class CountDayArray {
     public static void main(String[] args) {
         int month_days[] = {31,29,31,30};

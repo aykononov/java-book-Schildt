@@ -1,6 +1,6 @@
-// Резервирование памяти вручную для массива с разной размерностью второго измерения
-package Chapter03;
 
+package Chapter03;
+// Резервирование памяти вручную для массива с разной размерностью второго измерения
 public class TwoDAgain {
     public static void main(String[] args) {
         int[][] twoD = new int[4][];
