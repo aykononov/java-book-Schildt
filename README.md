@@ -198,6 +198,18 @@
 >">>>=" - Сдвиг вправо с заполнением нулями и присваиванием  
 >"<<="  - Сдвиг влево с присваиванием  
 >
+>[BitLogic - Продемонстрировать применение поразрядных логических операций](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/BitLogic.java "Посмотреть пример")  
+>[ByteShift - Сдвиг влево значения типа byte](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ByteShift.java "Посмотреть пример")  
+>[ByteLeft - Сдвиг влево](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ByteLeft.java "Посмотреть пример")  
+>
+>**Операции отношения(сравнения)**
+>"=="   - Равно  
+ "!="   - Не равно  
+ ">"    - Больше  
+ "<"    - Меньше  
+ ">="   - Больше или равно  
+ "<="   - Меньше или равно
+>
 >[Modulus - Операция деления по модулю% возвращает остаток от деления](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Modulus.java "Посмотреть пример")  
 >[Modulus - Операция деления по модулю% возвращает остаток от деления](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Modulus.java "Посмотреть пример")  
 </details>

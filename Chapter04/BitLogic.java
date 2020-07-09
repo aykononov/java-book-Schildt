@@ -1,5 +1,5 @@
 package Chapter04;
-
+//Продемонстрировать применение поразрядных логических операций
 public class BitLogic {
     public static void main(String[] args) {
         System.out.println("Применение поразрядных логических операций.");
