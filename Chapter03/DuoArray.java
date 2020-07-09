@@ -1,5 +1,5 @@
 package Chapter03;
-// Пример двумерного массива
+// Применение двумерного массива
 public class DuoArray {
     public static void main (String [] args) {
         int[][] mArr = new int[10][];

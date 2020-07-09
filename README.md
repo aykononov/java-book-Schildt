@@ -166,9 +166,9 @@
 >[Array - Продемонстрировать применение одномерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Array.java "Посмотреть пример")
 >[CountDayArray - Усовершенствованная версия предыдущей программы](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/CountDayArray.java "Посмотреть пример")    
 >[TwoDArray - Двумерный массив](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/TwoDArray.java "Посмотреть пример")  
->[DuoArray - Пример двумерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/DuoArray.java "Посмотреть пример")  
->[ThreeArray - Пример трехмерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/ThreeArray.java "Посмотреть пример")  
 >[Matrix - Инициализировать двухмерный массив](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Matrix.java "Посмотреть пример")  
+>[DuoArray - Применение двумерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/DuoArray.java "Посмотреть пример")  
+>[ThreeArray - Пример трехмерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/ThreeArray.java "Посмотреть пример")  
 >[TwoDAgain - Резервирование памяти вручную для массива с разной размерностью второго измерения](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/TwoDAgain.java "Посмотреть пример")  
 >[Average - Вычисление среднего из массива значений](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/TwoDAgain.java "Посмотреть пример")  
 </details>
