@@ -1,5 +1,5 @@
 package Chapter05;
-
+// Продемонстрировать применение оператора цикла do-while
 public class DoWhile {
     public static void main(String[] args) {
         int n = 10;

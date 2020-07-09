@@ -1,6 +1,6 @@
-// Применение оператора Ьreak с меткой для выхода из вложенных циклов.
-package Chapter05;
 
+package Chapter05;
+// Применение оператора Ьreak с меткой для выхода из вложенных циклов.
 public class BreakToLabel {
     public static void main(String[] args){
         exit: for (int i = 0; i < 3; i++) {

@@ -218,14 +218,27 @@
  на следующие категории: операторы выбора, операторы цикла и операторы перехода. Операторы выбора позволяют выбирать разные ветви выполнения команд
  в соответствии с результатом вычисления заданного выражения или состоянием переменной. Операторы цикла позволяют повторять выполнение одного или нескольких операторов (т.е. они образуют циклы). Операторы перехода обеспечивают возможность нелинейного выполнения программы.
 >
->[SampleSwitch - Простой пример применения оператора switch](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/SampleSwitch.java "Посмотреть пример")
+>[SampleSwitch - Простой пример применения оператора switch](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/SampleSwitch.java "Посмотреть пример")  
+>[NoBody - Цикл whilе (целевая часть цикла может быть пустой)](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/NoBody.java "Посмотреть пример")  
+>[DoWhile - Продемонстрировать применение оператора цикла do-while](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/DoWhile.java "Посмотреть пример")  
+>[ChoiceMenu - Использовать оператор цикла do-while для выбора пункта меню.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ChoiceMenu.java "Посмотреть пример")  
+>[ForEach - Пример цикла for в стиле for each](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ForEach.java "Посмотреть пример")  
+>[ForEachDuoArray - Применение цикла for в стиле for each для обращения к двухмерному массиву](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ForEachDuoArray.java "Посмотреть пример")  
+>[BreakWhile - Применение оператора break во вложенных циклах](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/BreakWhile.java "Посмотреть пример")  
+>[BreakToLabel - Применение оператора Ьreak с меткой для выхода из вложенных циклов.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/DoWhile.java "Посмотреть пример")  
+>[Continue - Продемонстрировать применение оператора continue](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/Continue.java "Посмотреть пример")  
+>[Return - Оператор return немедленно прекращает выполнение метода, в теле которого он находится.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/Return.java "Посмотреть пример")  
+>[ContinueLabel - Применение оператора continue с меткой](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/DoWhile.java "Посмотреть пример")  
 
 </details>
 
 <details><summary>Глава 6. "Введение в классы"</summary>
 
->(Стр. 163)
->
+>(Стр. 163)  
+>Класс определяет форму и сущность объекта.  
+>Таким образом, **Класс** - это шаблон для создания объекта, а **Объект** - это экземпляр класса. 
+ Но поскольку Объект является экземпляром Класса, то понятия объект и экземпляр употребляются в одном и том же смысле.  
+> 
 >["Chapter06" - пока только примеры](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/ "Chapter06")
 
 </details>

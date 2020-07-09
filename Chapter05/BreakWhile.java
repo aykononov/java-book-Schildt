@@ -1,6 +1,6 @@
-// Применение оператора break во вложенных циклах
-package Chapter05;
 
+package Chapter05;
+// Применение оператора break во вложенных циклах
 public class BreakWhile {
     public static void main (String[] args) {
         int i = 0;

@@ -1,6 +1,6 @@
-// Оператор return немедленно прекращает выполнение метода, в теле которого он находится.
-package Chapter05;
 
+package Chapter05;
+// Оператор return немедленно прекращает выполнение метода, в теле которого он находится.
 public class Return {
     public static void main (String[] args) {
         boolean t = true;

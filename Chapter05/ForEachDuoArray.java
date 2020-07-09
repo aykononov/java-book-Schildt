@@ -1,6 +1,5 @@
-//Применение цикла for в стиле for each для обращения к двухмерному массиву
 package Chapter05;
-
+//Применение цикла for в стиле for each для обращения к двухмерному массиву
 public class ForEachDuoArray {
     public static void main(String[] args) {
         int sum = 0;

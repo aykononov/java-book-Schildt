@@ -1,6 +1,6 @@
-// while - Целевая часть цикла может быть пустой
-package Chapter05;
 
+package Chapter05;
+// while - Целевая часть цикла может быть пустой
 public class NoBody {
     public static void main(String[] args) {
         int i, j;
