@@ -756,8 +756,12 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >    void callback(int param);
 >}
 >```
->
->**Реализация интерфейсов**  
+>><details><summary>
+>>**Реализация интерфейсов**
+></summary>
+>>
+>>
+>></details>
 >
 ></details>
 
