@@ -2,7 +2,7 @@ package Chapter09.mypack02;
 
 import  Chapter09.mypack.*;
 
-class TaetBalance {
+class TestBalance {
     public static void main(String[] args) {
         /* Класс Balance объявлен как puЬlic, поэтому им можно
            воспользоваться и вызвать его конструктор. */
