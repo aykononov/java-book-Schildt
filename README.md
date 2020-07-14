@@ -757,7 +757,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >}
 >```
 >><details><summary>
->>
+
 >>**Реализация интерфейсов**
 >>
 ></summary>
