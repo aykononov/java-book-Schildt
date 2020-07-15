@@ -892,7 +892,8 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >}
 >```  
 >В связи с тем что в объявление метода getString() включена его *реализация по умолчанию*, его совсем не обязательно переопределять в классе, реализующем интерфейс MyInterFace.  
->[Chapter09/DefaultMethods/DefaultMethodDemo - Пример использования реализации метода по умолчанию](https://github.com/aykononov/JavaSchildt/blob/master/Chapter09/DefaultMethods/DefaultMethodDemo.java "Посмотреть пример")  
+>[Chapter09/DefaultMethods/DefaultMethMain - Пример использования реализации метода по умолчанию](https://github.com/aykononov/JavaSchildt/blob/master/Chapter09/DefaultMethods/DefaultMethMain.java "Посмотреть пример")  
+>[Chapter09/DefaultMethods/DefaultMethMain2 - В этом классе предоставляются реализации обоих методов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter09/DefaultMethods/DefaultMethMain2.java "Посмотреть пример")
 ></details>
 
 

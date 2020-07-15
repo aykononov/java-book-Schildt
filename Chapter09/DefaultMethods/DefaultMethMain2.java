@@ -1,5 +1,6 @@
 package Chapter09.DefaultMethods;
 
+// В этом классе предоставляются реализации обоих методов
 class MyIFImp2 implements MyIF {
     // реализация метода
     public int getNumber() {
