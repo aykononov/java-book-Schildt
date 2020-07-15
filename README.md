@@ -2,6 +2,8 @@
 
 ## Java полное руководство - Герберт Шилдт, 10-е издание, 2018.  
 
+<small>*Ключевые моменты по ходу прочтения книги с примерами в виде справочника.*</small> 
+
 <details><summary>Глава 1. "История и развитие языка Java"</summary>
 
 >**Версия Java SE 9**    
@@ -137,30 +139,30 @@
   любой из операндов относится к типу douЫe, то и результат вычисления всего
   выражения относится к типу douЫe.  
 >
->[Conversion - Продемонстрировать приведение типов](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Conversion.java "Посмотреть пример")  
->[Scope - Продемонстрировать область видимости блока кода](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Scope.java "Посмотреть пример")  
+>[Chapter03/Conversion - Продемонстрировать приведение типов](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Conversion.java "Посмотреть пример")  
+>[Chapter03/Scope - Продемонстрировать область видимости блока кода](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Scope.java "Посмотреть пример")  
 >
 >>**Массивы**  
 >>Массив - это группа однотипных переменных, для обращения к которым используется общее имя. В языке Java допускается создание массивов любого типа
   и разной размерности. Доступ к конкретному элементу массива осуществляется по его индексу. Массивы предоставляют удобный способ группирования связанной вместе информации.  
 >>Массивы бывают ОДНОМЕРНЫЕ и МНОГОМЕРНЫЕ.  
 >
->[Array - Продемонстрировать применение одномерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Array.java "Посмотреть пример")
->[CountDayArray - Усовершенствованная версия предыдущей программы](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/CountDayArray.java "Посмотреть пример")    
->[TwoDArray - Двумерный массив](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/TwoDArray.java "Посмотреть пример")  
->[Matrix - Инициализировать двухмерный массив](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Matrix.java "Посмотреть пример")  
->[DuoArray - Применение двумерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/DuoArray.java "Посмотреть пример")  
->[ThreeArray - Пример трехмерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/ThreeArray.java "Посмотреть пример")  
->[TwoDAgain - Резервирование памяти вручную для массива с разной размерностью второго измерения](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/TwoDAgain.java "Посмотреть пример")  
->[Average - Вычисление среднего из массива значений](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/TwoDAgain.java "Посмотреть пример")  
+>[Chapter03/Array - Продемонстрировать применение одномерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Array.java "Посмотреть пример")
+>[Chapter03/CountDayArray - Усовершенствованная версия предыдущей программы](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/CountDayArray.java "Посмотреть пример")    
+>[Chapter03/TwoDArray - Двумерный массив](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/TwoDArray.java "Посмотреть пример")  
+>[Chapter03/Matrix - Инициализировать двухмерный массив](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/Matrix.java "Посмотреть пример")  
+>[Chapter03/DuoArray - Применение двумерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/DuoArray.java "Посмотреть пример")  
+>[Chapter03/ThreeArray - Пример трехмерного массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/ThreeArray.java "Посмотреть пример")  
+>[Chapter03/TwoDAgain - Резервирование памяти вручную для массива с разной размерностью второго измерения](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/TwoDAgain.java "Посмотреть пример")  
+>[Chapter03/Average - Вычисление среднего из массива значений](https://github.com/aykononov/JavaSchildt/tree/master/Chapter03/TwoDAgain.java "Посмотреть пример")  
 </details>
 
 <details><summary>Глава 4. "Операции"</summary>
 
 >
->[BasicMath - Продемонстрировать основные арифметические операции](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/BasicMath.java "Посмотреть пример")  
->[Modulus - Операция деления по модулю "%" (возвращает остаток от деления)](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Modulus.java "Посмотреть пример")  
->[OpEquals - Составные операции с присваиванием](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/OpEquals.java "Посмотреть пример")  
+>[Chapter04/BasicMath - Продемонстрировать основные арифметические операции](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/BasicMath.java "Посмотреть пример")  
+>[Chapter04/Modulus - Операция деления по модулю "%" (возвращает остаток от деления)](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Modulus.java "Посмотреть пример")  
+>[Chapter04/OpEquals - Составные операции с присваиванием](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/OpEquals.java "Посмотреть пример")  
 >
 >**Поразрядные операции в Java**  
 >"~"    - Поразрядная унарная операция НЕ  
@@ -177,10 +179,10 @@
 >">>>=" - Сдвиг вправо с заполнением нулями и присваиванием  
 >"<<="  - Сдвиг влево с присваиванием  
 >
->[BitLogic - Продемонстрировать применение поразрядных логических операций](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/BitLogic.java "Посмотреть пример")  
->[HexByte - Маскирование двоичных разрядов расширения знака](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/HexByte.java "Посмотреть пример")  
->[ByteShift - Сдвиг влево значения типа byte](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ByteShift.java "Посмотреть пример")  
->[ByteLeft - Сдвиг влево](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ByteLeft.java "Посмотреть пример")  
+>[Chapter04/BitLogic - Продемонстрировать применение поразрядных логических операций](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/BitLogic.java "Посмотреть пример")  
+>[Chapter04/HexByte - Маскирование двоичных разрядов расширения знака](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/HexByte.java "Посмотреть пример")  
+>[Chapter04/ByteShift - Сдвиг влево значения типа byte](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ByteShift.java "Посмотреть пример")  
+>[Chapter04/ByteLeft - Сдвиг влево](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/ByteLeft.java "Посмотреть пример")  
 >
 >**Операции отношения(сравнения)**  
 >"=="   - Равно  
@@ -204,7 +206,7 @@
  != - Неравенство  
  ?: - Тернарная условная операция типа если"., то"., иначе".
 >
->[Ternary - Продемонстрировать применение тернарной операции "?"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Ternary.java "Посмотреть пример")  
+>[Chapter04/Ternary - Продемонстрировать применение тернарной операции "?"](https://github.com/aykononov/JavaSchildt/tree/master/Chapter04/Ternary.java "Посмотреть пример")  
   
 </details>
 
@@ -215,17 +217,17 @@
  на следующие категории: операторы выбора, операторы цикла и операторы перехода. Операторы выбора позволяют выбирать разные ветви выполнения команд
  в соответствии с результатом вычисления заданного выражения или состоянием переменной. Операторы цикла позволяют повторять выполнение одного или нескольких операторов (т.е. они образуют циклы). Операторы перехода обеспечивают возможность нелинейного выполнения программы.
 >
->[SampleSwitch - Простой пример применения оператора switch](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/SampleSwitch.java "Посмотреть пример")  
->[NoBody - Цикл whilе (целевая часть цикла может быть пустой)](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/NoBody.java "Посмотреть пример")  
->[DoWhile - Продемонстрировать применение оператора цикла do-while](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/DoWhile.java "Посмотреть пример")  
->[ChoiceMenu - Использовать оператор цикла do-while для выбора пункта меню.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ChoiceMenu.java "Посмотреть пример")  
->[ForEach - Пример цикла for в стиле for each](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ForEach.java "Посмотреть пример")  
->[ForEachDuoArray - Применение цикла for в стиле for each для обращения к двухмерному массиву](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ForEachDuoArray.java "Посмотреть пример")  
->[BreakWhile - Применение оператора break во вложенных циклах](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/BreakWhile.java "Посмотреть пример")  
+>[Chapter05/SampleSwitch - Простой пример применения оператора switch](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/SampleSwitch.java "Посмотреть пример")  
+>[Chapter05/NoBody - Цикл whilе (целевая часть цикла может быть пустой)](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/NoBody.java "Посмотреть пример")  
+>[Chapter05/DoWhile - Продемонстрировать применение оператора цикла do-while](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/DoWhile.java "Посмотреть пример")  
+>[Chapter05/ChoiceMenu - Использовать оператор цикла do-while для выбора пункта меню.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ChoiceMenu.java "Посмотреть пример")  
+>[Chapter05/ForEach - Пример цикла for в стиле for each](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ForEach.java "Посмотреть пример")  
+>[Chapter05/ForEachDuoArray - Применение цикла for в стиле for each для обращения к двухмерному массиву](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ForEachDuoArray.java "Посмотреть пример")  
+>[Chapter05/BreakWhile - Применение оператора break во вложенных циклах](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/BreakWhile.java "Посмотреть пример")  
 >[BreakToLabel - Применение оператора Ьreak с меткой для выхода из вложенных циклов.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/BreakToLabel.java "Посмотреть пример")  
->[Continue - Продемонстрировать применение оператора continue](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/Continue.java "Посмотреть пример")  
->[Return - Оператор return немедленно прекращает выполнение метода, в теле которого он находится.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/Return.java "Посмотреть пример")  
->[ContinueLabel - Применение оператора continue с меткой](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ContinueLabel.java "Посмотреть пример")  
+>[Chapter05/Continue - Продемонстрировать применение оператора continue](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/Continue.java "Посмотреть пример")  
+>[Chapter05/Return - Оператор return немедленно прекращает выполнение метода, в теле которого он находится.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/Return.java "Посмотреть пример")  
+>[Chapter05/ContinueLabel - Применение оператора continue с меткой](https://github.com/aykononov/JavaSchildt/tree/master/Chapter05/ContinueLabel.java "Посмотреть пример")  
 
 </details>
 
@@ -246,13 +248,13 @@
 >
  *В общей форме класса отсутствует определение метода main(). Его нужно указывать только в тех случаях, когда данный класс служит отправной точкой для выполнения программы.*
 >
->[BoxDemo - Программа, использующая класс Box](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo.java "Посмотреть пример")  
->[BoxDemo2 - В этой программе объявляются два объекта класса Вох](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo2.java "Посмотреть пример")  
->[BoxDemo3 - В этой программе применяется метод с параметрами](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo3.java "Посмотреть пример")  
->[BoxDemo4 - В классе Box4 применяется параметрзованный конструктор](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo4.java "Посмотреть пример")  
->[BoxDemo5 - Перегрузка методов](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo5.java "Посмотреть пример")  
->[Stack - Реализация класса Stack](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/Stack.java "Посмотреть пример")  
->[TestStack - Применение класса Stack](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/TestStack.java "Посмотреть пример")  
+>[Chapter06/BoxDemo - Программа, использующая класс Box](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo.java "Посмотреть пример")  
+>[Chapter06/BoxDemo2 - В этой программе объявляются два объекта класса Вох](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo2.java "Посмотреть пример")  
+>[Chapter06/BoxDemo3 - В этой программе применяется метод с параметрами](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo3.java "Посмотреть пример")  
+>[Chapter06/BoxDemo4 - В классе Box4 применяется параметрзованный конструктор](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo4.java "Посмотреть пример")  
+>[Chapter06/BoxDemo5 - Перегрузка методов](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/BoxDemo5.java "Посмотреть пример")  
+>[Chapter06/Stack - Реализация класса Stack](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/Stack.java "Посмотреть пример")  
+>[Chapter06/TestStack - Применение класса Stack](https://github.com/aykononov/JavaSchildt/tree/master/Chapter06/TestStack.java "Посмотреть пример")  
 
 </details>
 
@@ -268,15 +270,15 @@
 >Выбор подходящего варианта метода для кQнкретной ситуации входит в обязанности компилятора, а программисту нужно лишь запомнить общее выполняемое действие. Полиморфизм позволяет свести несколько имен к одному.  
 >При перегрузке метода каждый его вариант может выполнять любые требующиеся действия. Не существует правила, согласно которому перегружаемые методы должны быть связаны друг с другом.
 >  
->[OverloadDemo - Продемонстрировать перегрузку методов](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/OverloadDemo.java "Посмотреть пример")  
->[OverloadDemo2 - Применить автоматическое преобразование типов к перегрузке](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/OverloadDemo.java "Посмотреть пример")  
+>[Chapter07/OverloadDemo - Продемонстрировать перегрузку методов](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/OverloadDemo.java "Посмотреть пример")  
+>[Chapter07/OverloadDemo2 - Применить автоматическое преобразование типов к перегрузке](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/OverloadDemo.java "Посмотреть пример")  
 >
 >Наряду с перегрузкой обычных методов можно также выполнять перегрузку методов-конструкторов.  
 >В качестве параметров объекты чаще всего употребляются в конструкторах.
  Нередко новый объект приходится создавать таким образом, чтобы он первоначально ничем не отличался от уже существующего объекта. Для этого придется
  определить конструктор, принимающий в качестве параметра объект своего класса. Например, приведенная ниже очередная версия класса Вох позволяет инициализировать один объект другим.  
 >
->[BoxDemo01 - В этой версии класса Вох один объект допускается инициализировать другим объектом](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/BoxDemo01.java "Посмотреть пример")  
+>[Chapter07/BoxDemo01 - В этой версии класса Вох один объект допускается инициализировать другим объектом](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/BoxDemo01.java "Посмотреть пример")  
 >
 ></details>
 
@@ -284,7 +286,7 @@
 >
 >В этом случае значение аргумента копируется в формальный параметр подпрограммы. Следовательно, изменения, вносимые в параметр подпрограммы, не оказывают никакого влияния на аргумент.  
 >*Когда методу передается аргумент примитивного типа, его передача происходит по значению. В итоге создается копия аргумента, и все, что происходит с параметром, принимающим этот аргумент, не оказывает никакого влияния за пределами вызываемого метода.*  
->[CallByValue02 - Аргументы примитивных типов передаются по значению](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/CallByValue02.java "Посмотреть пример")  
+>[Chapter07/CallByValue02 - Аргументы примитивных типов передаются по значению](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/CallByValue02.java "Посмотреть пример")  
 >
 ></details>
 
@@ -293,7 +295,7 @@
 >При передаче объекта в качестве аргумента методу ситуация меняется коренным образом, поскольку объекты, по существу, передаются при вызове по ссылке.
  Не следует, однако, забывать, что *при объявлении переменной типа класса создается лишь ссылка на объект этого класса.*  
  Таким образом, при передаче этой ссылки методу принимающий ее параметр будет ссылаться на тот же самый объект, на который ссылается и аргумент. По существу, это означает, что объекты действуют так, как будто они передаются методам по ссылке. Но изменения объекта в теле метода оказывают влияние на объект, указываемый в качестве аргумента.  
-[CallObjLink03 - Объекты передаются по ссылке на них](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/CallObjLink03.java "Посмотреть пример")  
+[Chapter07/CallObjLink03 - Объекты передаются по ссылке на них](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/CallObjLink03.java "Посмотреть пример")  
 >
 ></details>
 
@@ -306,7 +308,7 @@
  существовать до тех пор, пока будет существовать ссылка на него в каком-нибудь другом месте программы.  
  В отсутствие любых ссылок на объект он будет уничтожен при последующей сборке "мусора".
  В приведенном ниже примере проrраммы метод icrByTen() возвращает объект, в котором значение переменной а на "1О" больше значения этой переменной в вызывающем объекте:  
->[ReturnObject04 - Возврат объекта](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/ReturnObject04.java "Посмотреть пример")  
+>[Chapter07/ReturnObject04 - Возврат объекта](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/ReturnObject04.java "Посмотреть пример")  
 ></details>
 
 ><details><summary>Рекурсия</summary>
@@ -331,8 +333,8 @@
 >Факториал числа N - это произведение всех целых чисел от 1 до N.   
  Например, факториал числа 3 равен 1*2*3, т.е. 6.  
 >Ниже показано, как вычислить факториал, используя рекурсивный метод:  
->[Recursion05 - Простой пример рекурсии (вычисление Факториала)](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/Recursion05.java "Посмотреть пример")  
->[Recursion06 - Еще один пример рекурсии](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/Recursion06.java "Посмотреть пример")  
+>[Chapter07/Recursion05 - Простой пример рекурсии (вычисление Факториала)](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/Recursion05.java "Посмотреть пример")  
+>[Chapter07/Recursion06 - Еще один пример рекурсии](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/Recursion06.java "Посмотреть пример")  
 ></details>
 
 ><details><summary>Управление доступом</summary>
@@ -347,9 +349,9 @@
  В отсутствие модификатора доступа по умолчанию член класса считается открытым в своем пакете, но недоступным для кода, находящегося за пределами этого пакета.  
 >
 >В следующем примере демонстрируется отличие модификаторов *puЬlic и private*:  
->[TestAccess07 - Демонстрация модификаторов доступа](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/TestAccess07.java "Посмотреть пример")  
+>[Chapter07/TestAccess07 - Демонстрация модификаторов доступа](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/TestAccess07.java "Посмотреть пример")  
 >В качестве более реального примера организации управления доступом рассмотрим следующую усовершенствованную версию класса Stack.  
->[StackTest08 - Пример, усовершенствованной версии класса Stack](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/StackTest08.java "Посмотреть пример")  
+>[Chapter07/StackTest08 - Пример, усовершенствованной версии класса Stack](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/StackTest08.java "Посмотреть пример")  
 ></details>
 
 ><details><summary>Ключевое слово static</summary>
@@ -366,7 +368,7 @@
 >
 >Если для инициализации статических переменных требуется произвести вычисления, то для этой цели достаточно объявить статический блок, который будет выполняться только один раз при первой загрузке класса.   
 >В приведенном ниже примере демонстрируется класс, который содержит статический метод, несколько статических переменных и статический блок инициализации.  
->[UseStatic09 - В этой версии класса Вох один объект допускается инициализировать другим объектом](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/UseStatic09.java "Посмотреть пример")  
+>[Chapter07/UseStatic09 - В этой версии класса Вох один объект допускается инициализировать другим объектом](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/UseStatic09.java "Посмотреть пример")  
 >
 >За пределами класса, в котором определены статические методы и переменные, ими можно пользоваться независимо от любого объекта. Для этого достаточно
  указать имя их класса через *операцию-точку* непосредственно перед их именами. Так, если требуется вызвать статический метод за пределами его класса, это можно сделать, используя следующую общую форму:  
@@ -380,7 +382,7 @@
  *операцию-точку*. Именно так в Java реализованы управляемые версии глобальных методов и переменных.
  Обратимся к конкретному примеру. 
 >В теле метода main() обращение к статическому методу callme() и статической переменной "Ь" осуществляется по имени их класса "UseStatic09":  
->[UseStaticByName09 - В этой версии класса Вох один объект допускается инициализировать другим объектом](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/UseStaticByName09.java "Посмотреть пример")  
+>[Chapter07/UseStaticByName09 - В этой версии класса Вох один объект допускается инициализировать другим объектом](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/UseStaticByName09.java "Посмотреть пример")  
 ></details>
 
 ><details><summary>Массивы</summary>
@@ -391,7 +393,7 @@
 >В качестве примера ниже приведена усовершенствованная версия класса Stack. Напомним, что в предшествующих версиях этого класса всегда создавался 10-элементный стек.
  *А новая версия класса Stack позволяет создавать стеки любого размера*.  
 >Значение свойства stck.length используется с целью предотвратить переполнение стека!!!  
->[StackTest10 - Усовершенствованный класс Stack, в котором используется свойство длины массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/StackTest10.java "Посмотреть пример")  
+>[Chapter07/StackTest10 - Усовершенствованный класс Stack, в котором используется свойство длины массива](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/StackTest10.java "Посмотреть пример")  
 ></details>
 
 ><details><summary>Вложенные и внутренние классы</summary>
@@ -401,18 +403,18 @@
  означает, что вложенный статический класс не может непосредственно ссылаться на нестатические члены своего внешнего класса. В силу этого ограничения статические вложенные классы применяются редко.
  Наиболее важным типом вложенного класса является *Внутренний класс.*  
  *Внутренний класс* - это нестатический вложенный класс. Он имеет доступ ко всем переменным и методам своего внешнего класса и может непосредственно ссылаться на них таким же образом, как и остальные нестатические члены внешнего класса.   
->[InnerClassDemo11 - Продемонстрировать применение внутреннего класса](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/InnerClassDemo11.java "Посмотреть пример")  
+>[Chapter07/InnerClassDemo11 - Продемонстрировать применение внутреннего класса](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/InnerClassDemo11.java "Посмотреть пример")  
 >
 >Внутренний класс имеет доступ ко всем элементам своего внешнего класса, но не наоборот.
  Члены внутреннего класса доступны только в области действия внутреннего класса и не могут быть
  использованы внешним классом. Как показано в приведенном ниже примере программы, переменная у
  объявлена как переменная экземпляра класса Inner. Поэтому она недоступна за пределами этого класса
  и не может использоваться в методе showy().  
->[InnerClassDemo12 - Эта программа не подлежит компиляции !!!](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/InnerClassDemo12.java "Посмотреть пример")  
+>[Chapter07/InnerClassDemo12 - Эта программа не подлежит компиляции !!!](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/InnerClassDemo12.java "Посмотреть пример")  
 >
 >Внутренние классы можно определять и в области видимости любого блока кода.
  Например, вложенный класс можно определить в блоке кода, относящегося к методу, или даже в теле цикла for.  
->[InnerClassDemo13 - В этой версии класса Вох один объект допускается инициализировать другим объектом](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/InnerClassDemo13.java "Посмотреть пример")  
+>[Chapter07/InnerClassDemo13 - В этой версии класса Вох один объект допускается инициализировать другим объектом](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/InnerClassDemo13.java "Посмотреть пример")  
 ></details>
 
 ><details><summary>Краткий обзор класса String</summary>
@@ -431,10 +433,10 @@
 > int length ()
 > char сhаrАt(индекс)
 >```   
->[StringDemo14 - Продемонстрировать некоторые методы из класса String](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/StringDemo14.java "Посмотреть пример")  
+>[Chapter07/StringDemo14 - Продемонстрировать некоторые методы из класса String](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/StringDemo14.java "Посмотреть пример")  
 >
 >Подобно массивам объектов любого другого типа, могут существовать и массивы символьных строк.  
->[StringDemo15 - Продемонстрировать применение массивов объектов типа String](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/StringDemo15.java "Посмотреть пример")  
+>[Chapter07/StringDemo15 - Продемонстрировать применение массивов объектов типа String](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/StringDemo15.java "Посмотреть пример")  
 ></details>
 
 ><details><summary>Аргументы переменной длины</summary>
@@ -445,7 +447,7 @@
  создавать перегружаемые варианты метода - по одному для каждого из возможных способов вызова метода. И хотя такой способ вполне работоспособен, он пригоден только в редких случаях.  
  Во-вторых, когда максимальное количество возможных аргументов было большим или неизвестным, применялся подход, при котором аргументы сначала размещались в массиве, а затем массив передавался методу.  
 >Такой подход демонстрируется в следующем примере программы:  
->[UseArrayToPassVariableToMethod16 - Использовать массив для передачи методу переменной количество аргументов.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/UseArrayToPassVariableToMethod16.java "Посмотреть пример")  
+>[Chapter07/UseArrayToPassVariableToMethod16 - Использовать массив для передачи методу переменной количество аргументов.](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/UseArrayToPassVariableToMethod16.java "Посмотреть пример")  
 >
 >В данной программе аргументы передаются методу vaTest() через массив v.
  Этот старый подход к обработке аргументов переменной длины позволяет методу vaTest() принимать любое количество аргументов. Но он требует, чтобы эти аргументы были вручную размещены в массиве до вызова метода vaTest(). Создание
@@ -465,7 +467,7 @@
  Во-вторых, метод vaTest() вызывается в методе main() с разным количеством аргументов, в том числе и совсем без них.
  Аргументы автоматически размещаются в массиве и передаются переменной v.
  Если же аргументы отсутствуют, длина этого массива равна нулю.  
->[VarArgs17 - Продемонстрировать применение аргументов переменной длины](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/VarArgs17.java "Посмотреть пример")  
+>[Chapter07/VarArgs17 - Продемонстрировать применение аргументов переменной длины](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/VarArgs17.java "Посмотреть пример")  
 >
 >Наряду с параметром переменной длины у метода могут быть и "обычные" параметры. Но параметр переменной длины должен быть последним среди всех параметров, объявляемых в методе.  
 >```Java
@@ -474,7 +476,7 @@
 >Существует еще одно ограничение, о котором следует знать: 
 >*метод должен содержать только один параметр с переменным количеством аргументов.*   
 >Далее приведена измененная версия метода vaTest(), который принимает как обычный аргумент, так и аргументы переменной длины.  
->[VarArgs18 - Продемонстрировать применение аргументов переменной длины](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/VarArgs18.java "Посмотреть пример")  
+>[Chapter07/VarArgs18 - Продемонстрировать применение аргументов переменной длины](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/VarArgs18.java "Посмотреть пример")  
 ></details>
 
 ><details><summary>Перегрузка методов с аргументами переменной длины</summary>
@@ -487,7 +489,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 нужного варианта перегружаемого метода.  
 *Второй способ* перегрузки метода с аргументами переменной длины состоит в том, чтобы добавить один или несколько обычных параметров. Именно это
 и было сделано при объявлении метода vaTest (String, int ... ). В данном случае для выбора нужного варианта метода исполняющая система Java использует не только количество аргументов, но и их тип.  
->[VarArgs19 - Аргументы переменной длины и перегрузка](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/VarArgs19.java "Посмотреть пример")  
+>[Chapter07/VarArgs19 - Аргументы переменной длины и перегрузка](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/VarArgs19.java "Посмотреть пример")  
 >
 >ВАЖНО!!!  
 >Метод, поддерживающий переменное количество аргументов, может быть также перегружен методом, который не поддерживает такую возможность. 
@@ -502,7 +504,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
  может возникать при вызове перегружаемого метода с аргументами переменной длины.  
  Параметр с переменным количеством аргументов может быть пустым, поэтому этот вызов может быть преобразован в вызов метода **vaTest (int ... )**
  или **vaTest (boolean ... )**. А поскольку вполне допустимы оба варианта, то данный вызов принципиально неоднозначен.  
-[VarArgs20 - Аргументы переменной длины, перегрузка и Неоднозначность](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/VarArgs20.java "Посмотреть пример")  
+[Chapter07/VarArgs20 - Аргументы переменной длины, перегрузка и Неоднозначность](https://github.com/aykononov/JavaSchildt/tree/master/Chapter07/VarArgs20.java "Посмотреть пример")  
 > Приведенные ниже перегружаемые варианты метода **vaTest()** изначально неоднозначны, несмотря на то, что один из них принимает обычный параметр.  
 >```Java
 >    static void vaTest (int ... v) { // ...
@@ -523,7 +525,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >>Как только суперкласс, который определяет общие свойства объекта, будет создан, он может наследоваться для разработки специализированных классов. Каждый подкласс добавляет собственные особые характеристики. В этом и состоит вся суть наследования.
 >>
->>[SimpleInheritance01 - Простой пример наследования](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/SimpleInheritance01.java "Посмотреть пример")
+>>[Chapter08/SimpleInheritance01 - Простой пример наследования](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/SimpleInheritance01.java "Посмотреть пример")
 >
 ></details>
 
@@ -531,7 +533,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >>Если ссылочной переменной из Суперкласса присваивается ссылка на объект Подкласса, то доступ предоставляется только к указанным в ней частям объекта, определяемого в Суперклассе, потому-что Суперклассу неизвестно, что именно добавляет в него Подкласс.
 >>
->>[DemoBoxWeight02 - Пример, где наследование применяется для расширения класса](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DemoBoxWeight02.java "Посмотреть пример")
+>>[Chapter08/DemoBoxWeight02 - Пример, где наследование применяется для расширения класса](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DemoBoxWeight02.java "Посмотреть пример")
 >
 ></details>
 
@@ -539,7 +541,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >>При вызове метода super() из Подкласса вызывается конструктор его непосредственного Суперкласса. Таким образом, метод super() всегда обращается к Суперклассу, находящемуся в иерархии непосредственно над вызывающим классом. Это справедливо даже для многоуровневой иерархии. Кроме того, вызов метода super() должен быть непременно сделан в первом операторе, выполняемом в теле конструктора Подкласса.
 >>
->>[DemoBoxWeight03 - Вызов конструкторов Суперкласса с помощью ключевого слова super](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DemoBoxWeight03.java "Посмотреть пример")
+>>[Chapter08/DemoBoxWeight03 - Вызов конструкторов Суперкласса с помощью ключевого слова super](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DemoBoxWeight03.java "Посмотреть пример")
 >
 ></details>
 
@@ -547,7 +549,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >>Можно посмотреть и сравнить, как выглядят ссылочные переменные при клонировании объектов и копировании ссылок на объекты.
 >>
->>[ReferenceVariables04 ](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/ReferenceVariables04.java "Посмотреть пример")
+>>[Chapter08/ReferenceVariables04 ](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/ReferenceVariables04.java "Посмотреть пример")
 >
 ></details>
 
@@ -555,7 +557,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >>Каждый Подкласс наследует все характеристики всех его Суперклассов. Подкласс BoxWeight служит в качестве Суперкласса для создания Подкласса BoxShipment и добавляет к ним поле cost. Благодаря наследованию в классе BoxShipment можно использовать ранее определенные классы Вох и BoxWeight, добавляя только те дополнительные данные, которые требуются для его собственного специализированного применения. В этом и состоит одна из самых ценных особенностей наследования. Она позволяет использовать код повторно. Приведенный пример демонстрирует еще одну важную особенность наследования: метод super() всегда ссылается на конструктор ближайшего по иерархии Суперкласса. В методе super() из класса BoxSlipment вызывается конструктор класса BoxWeight. А в методе super() из класса BoxWeight вызывается конструктор класса Вох. Если в иерархии классов требуется передать параметры конструктору Cуперкласса, то все подклассы должны передавать эти параметры вверх по иерархии. Данное утверждение справедливо независимо от того, нуждается ли Подкласс в собственных параметрах.
 >>
->>[DemoShipment05 - Пример, создания многоуровневой иерархии](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DemoShipment05.java "Посмотреть пример")
+>>[Chapter08/DemoShipment05 - Пример, создания многоуровневой иерархии](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DemoShipment05.java "Посмотреть пример")
 >
 ></details>
 
@@ -563,7 +565,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >>В иерархии классов конструкторы вызываются в порядке наследования, начиная с суперкласса и кончая подклассом. Более того, этот порядок остается неизменным независимо от того, используется форма super() или нет, поскольку вызов метода super() должен быть в первом операторе, выполняемом в конструкторе подкласса. Если метод super() не вызывается, то используется конструктор по умолчанию или же конструктор без параметров из каждого суперкласса.
 >>
->>[CallingConstr06 - Порядок вызова конструкторов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/CallingConstr06.java "Посмотреть пример")
+>>[Chapter08/CallingConstr06 - Порядок вызова конструкторов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/CallingConstr06.java "Посмотреть пример")
 >
 ></details>
 
@@ -571,7 +573,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >>Если в иерархии классов совпадают имена и сигнатуры типов методов из Подкласса и Суперкласса, то говорят, что метод из Подкласса переопределяет метод из Суперкласса. Когда переопределенный метод вызывается из своего Подкласса, он всегда ссылается на свой вариант, определенный в Подклассе. А вариант метода, определенный в Суперклассе, будет скрыт.
 >>
->>[OverrideMethod07 - Пример, переопределения методов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/OverrideMethod07.java "Посмотреть пример")
+>>[Chapter08/OverrideMethod07 - Пример, переопределения методов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/OverrideMethod07.java "Посмотреть пример")
 >
 ></details>
 
@@ -579,7 +581,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >>Переопределение методов выполняется только в том случае, если имена и сигнатуры типов обоих методов одинаковы. В противном случае оба метода считаются перегружаемыми.
 >>
->>[OverloadMethod08 - Пример, перегрузки методов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/OverloadMethod08.java "Посмотреть пример")
+>>[Chapter08/OverloadMethod08 - Пример, перегрузки методов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/OverloadMethod08.java "Посмотреть пример")
 >
 ></details>
 
@@ -591,7 +593,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >>В этом примере создаются один Суперкласс А и два его Подкласса В и С. В Подклассах В и С переопределяется метод callme(), объявляемый в классе А. В методе main() объявляются объекты классов А, В и С, а также переменная ref ссылки на объект типа А. Затем переменной ref присваивается по очереди ссылка на объект каждого из классов А, В и С, и по этой ссылке вызывается метод callme().
 >>Как следует из результата, выводимого этой программой, выполняемый вариант метода callme() определяется исходя из типа объекта, на который делается ссылка в момент вызова. Если бы выбор делался по типу ссылочной переменной ref, то выводимый результат отражал бы три вызова одного и того же метода callme() из класса А.
 >>
->>[DynamicMethodDispatching09 - Динамическая диспетчеризация методов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DynamicMethodDispatching09.java "Посмотреть пример")
+>>[Chapter08/DynamicMethodDispatching09 - Динамическая диспетчеризация методов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/DynamicMethodDispatching09.java "Посмотреть пример")
 >
 ></details>
 
@@ -608,7 +610,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >>Практический пример, в котором применяется переопределение методов. В приведенной ниже программе создается суперкласс Figure для хранения размеров двумерного объекта, а также определяется метод area() для расчета площади этого объекта. Кроме того, в этой программе создаются два класса,
 >>Rectangle и Triangle, производные от класса Figure. Метод area() переопределяется в каждом из этих подклассов, чтобы возвращать площадь четырехугольника и треугольника соответственно.
 >>   
->>[FigureFindArea10 - Применение динамического полиморфизма](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/FigureFindArea10.java "Посмотреть пример")
+>>[Chapter08/FigureFindArea10 - Применение динамического полиморфизма](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/FigureFindArea10.java "Посмотреть пример")
 >
 ></details>
 
@@ -621,7 +623,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >>
 >>Кроме того, нельзя объявлять абстрактные конструкторы или абстрактные статические методы.
 >>   
->>[AbstractDemo11 - Применение абстрактных методов и классов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/AbstractDemo11.java "Посмотреть пример")
+>>[Chapter08/AbstractDemo11 - Применение абстрактных методов и классов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter08/AbstractDemo11.java "Посмотреть пример")
 >
 ></details>
 
