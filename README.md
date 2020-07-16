@@ -977,7 +977,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 
 </details>
 
-<details><summary>ГЛАВА 10. Обработка, исключений</summary>
+<details><summary>ГЛАВА 10. Обработка исключений</summary>
 ><details><summary>Основы обработки исключений</summary>
 
 >Общая форма блока обработки исключений:  
