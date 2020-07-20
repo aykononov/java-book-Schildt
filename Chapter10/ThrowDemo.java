@@ -6,7 +6,7 @@ class ThrowDemo {
         try {
             throw new NullPointerException("демонстрация"); // Создать объект стандартных исключений в Java
         } catch (NullPointerException e) {
-            System.out.println("Исключение перехвачено в теле метода demoproc();");
+            System.out.println("Исключение перехвачено в теле метода demoproc()");
             throw e; // повторно сгенерировать исключение
         }
     }
@@ -20,6 +20,6 @@ class ThrowDemo {
     }
 }
 /* -------------------------------------------------------------
-Исключение перехвачено в теле метода demoproc();
+Исключение перехвачено в теле метода demoproc()
 Повторный перехват: java.lang.NullPointerException: демонстрация
  */
