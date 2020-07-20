@@ -4,7 +4,7 @@ package Chapter10;
 class ThrowDemo {
     static void demoproc() {
         try {
-            throw new NullPointerException("демонстрация");
+            throw new NullPointerException("демонстрация"); // Создать объект стандартных исключений в Java
         } catch (NullPointerException e) {
             System.out.println("Исключение перехвачено в теле метода demoproc();");
             throw e; // повторно сгенерировать исключение
