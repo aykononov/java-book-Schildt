@@ -16,7 +16,7 @@ class ExampleException {
                 System.out.println("\tcatch() {... Перхватываем и Выводим исключение: " + e2);
             }
 
-         } finally { // Блок кода который выполнится в любом случае после try/catch
+         } finally { // Выполнить в любом случае после try/catch
             System.out.println("finally {... Этот блок кода выполняется в любом случае после try/catch");
         }
      }
