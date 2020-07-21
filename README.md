@@ -1183,6 +1183,8 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[Chapter10/ExampleException - Продемонстрировать все исключения](https://github.com/aykononov/JavaSchildt/blob/master/Chapter10/ExampleException.java "Посмотреть пример")
 ></details>
 
+</details>
+
 <details><summary>ГЛАВА 11. "Многопоточное программирование"</summary>
 
 ><details><summary>Многопоточность</summary>
@@ -1190,8 +1192,6 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >  
 >[Chapter11/FinallyDemo - Продемонстрировать применение оператора finally](https://github.com/aykononov/JavaSchildt/blob/master/Chapter11/FinallyDemo.java "Посмотреть пример")  
 ></details>
-
-</details>
 
 </details>
 
