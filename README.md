@@ -1190,7 +1190,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 ><details><summary>Многопоточность</summary>
 >
 >  
->[Chapter11/FinallyDemo - Продемонстрировать применение оператора finally](https://github.com/aykononov/JavaSchildt/blob/master/Chapter11/FinallyDemo.java "Посмотреть пример")  
+>[Chapter11/Demo - Продемонстрировать пример](https://github.com/aykononov/JavaSchildt/blob/master/Chapter11/Demo.java "Посмотреть пример")  
 ></details>
 
 </details>
