@@ -20,7 +20,7 @@ class NewThread implements Runnable {
                 Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
-            System.out.println(name + " прерван");
+            System.out.println(name + " прерван.");
         }
         System.out.println(name + " завершен.");
     }
@@ -35,7 +35,7 @@ class MultiThreadDemo {
             // ожидать завершения других потоков исполнения
             Thread.sleep(10000);
         } catch (InterruptedException e) {
-            System.out.println("Глaвный поток прерван");
+            System.out.println("Глaвный поток прерван.");
         }
 
         System.out.println("Глaвный поток завершен.");
