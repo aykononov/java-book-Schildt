@@ -2,6 +2,7 @@ package Chapter11.Package06;
 
 // В этой программе используется синхронизированный блок
 class Callme {
+
     void call(String msg) {
         System.out.print("[" + msg);
         try {
@@ -21,7 +22,7 @@ class Caller implements Runnable {
     public Caller(Callme trg, String s) {
         target = trg;
         msg    = s;
-        thr = new Thread(this);
+        thr    = new Thread(this);
         thr.start();
     }
 
@@ -57,7 +58,7 @@ class Synch1 {
 Благодаря этому получается тот же правильный результат, что и в предыдущем примере (Synch.java),
 поскольку каждый поток исполнения ожидает завершения предыдущего потока.
 Результат выполнения данной программы:
-------------------
+--------------------------------------
 [obj1]
 [obj3]
 [obj2]
