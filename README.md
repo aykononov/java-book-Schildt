@@ -1,6 +1,7 @@
 <small>
 
 ## Java полное руководство - Герберт Шилдт, 10-е издание, 2018.  
+#### (*По ходу изучения Java, тут сохранены основные моменты из книги с примерами кода*)
 
 <details><summary>ГЛАВА 1. "История и развитие языка Java"</summary>
 
@@ -1349,9 +1350,16 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 ></details>
 
+><details><summary>Приоритеты потоков исполнения</summary>
+>
+>В прикладной программе можно порождать сколько угодно потоков исполнения. Например, в следующей программе создаются три дочерних потока исполнения:  
+>[Chapter11/Package03/MultiThreadDemo - Создать несколько потоков исполнения](https://github.com/aykononov/JavaSchildt/blob/master/Chapter11/Package03/MultiThreadDemo.java "Посмотреть пример Java")
+>
+></details>
+
+
+
 </details>
-
-
 
 ---
 <details><summary>Ключевые моменты...</summary>
