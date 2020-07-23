@@ -1352,7 +1352,6 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 </details>
 
 ---
-
 <details><summary>Ключевые моменты...  </summary>
 
 **Главное отличие Класса от Интерфейса**  
