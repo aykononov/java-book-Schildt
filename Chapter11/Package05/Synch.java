@@ -20,15 +20,15 @@ class Callme {
 class Caller implements Runnable {
     String msg;
     Callme target;
-    Thread t;
+    Thread thr;
 
     // В этом конструкторе создается также новый поток исполнения,
     // в котором вызывается метод run() для данного объекта.
-    public Caller(Callme targ, String s) {
-        target = targ;
+    public Caller(Callme trg, String s) {
+        target = trg;
         msg    = s;
-        t      = new Thread(this);
-        t.start();
+        thr    = new Thread(this);
+        thr.start();
     }
     public void run() {
         target.call(msg);
@@ -38,15 +38,15 @@ class Caller implements Runnable {
 class Synch {
     public static void main(String[] args) {
         Callme target = new Callme();
-        Caller ob1    = new Caller(target, "ob1");
-        Caller ob2    = new Caller(target, "ob2");
-        Caller ob3    = new Caller(target, "ob3");
+        Caller obj1    = new Caller(target, "obj1");
+        Caller obj2    = new Caller(target, "obj2");
+        Caller obj3    = new Caller(target, "obj3");
 
         // ожидать завершения потока исполнения
         try {
-            ob1.t.join();
-            ob2.t.join();
-            ob3.t.join();
+            obj1.thr.join();
+            obj2.thr.join();
+            obj3.thr.join();
         } catch (InterruptedException e) {
             System.out.println("прервано");
         }
@@ -69,7 +69,7 @@ Gосле того, как метод call() выведет символьную
 
 Результат выполнения данной программы:
 ------------------------------------------
-[ob1[ob2[ob3]
+[obj1[obj2[obj3]
 ]
 ]
 
@@ -78,8 +78,8 @@ Gосле того, как метод call() выведет символьную
 
 Результат выполнения данной программы:
 ------------------------------------------
-[ob1]
-[ob3]
-[ob2]
+[obj1]
+[obj3]
+[obj2]
 
 */
