@@ -11,14 +11,12 @@ class CurrentThreadDemo {
         t.setName("MyThread");
         System.out.println("Пocлe изменения имени потока: \t" + t);
 
+        // Метод sleep() из класса Тhrеаd может сгенерировать исключение типа InterruptException,
+        // если в каком-нибудь другом потоке исполнения потребуется прервать ожидающий поток.
         try {
             for (int i = 5; i > 0; i--) {
                 System.out.println(i);
-
-             /* Метод sleep() из класса Тhrеаd может сгенерировать исключение типа InterruptException,
-                если в каком-нибудь другом потоке исполнения потребуется прервать ожидающий поток. */
                 Thread.sleep(1000);
-
             }
         } catch (InterruptedException e) {
             System.out.println("Главный поток исполнения прерван");
