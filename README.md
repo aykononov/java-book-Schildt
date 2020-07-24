@@ -1246,7 +1246,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >static Thread currentThread()
 >```  
 >Этот метод возвращает ссылку на тот поток исполнения, из которого он был вызван. Получив ссылку на *главный поток*, можно управлять им таким же образом, как и любым другим потоком исполнения.  
->[Chapter11/CurrentThreadDemo - Управление главным потоком исполнения](https://github.com/aykononov/JavaSchildt/blob/master/Chapter11/CurrentThreadDemo.java "Посмотреть пример Java")   
+>[Chapter11/Package00/CurrentThreadDemo - Управление главным потоком исполнения](https://github.com/aykononov/JavaSchildt/blob/master/Chapter11/Package00/CurrentThreadDemo.java "Посмотреть пример Java")   
 >*Группа потоков исполнения* - это структура данных, которая управляет состоянием всей совокупности потоков исполнения в целом.
 >
 ></details>

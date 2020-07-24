@@ -1,4 +1,4 @@
-package Chapter11;
+package Chapter11.Package00;
 
 // Управление главным потоком исполнения
 class CurrentThreadDemo {
