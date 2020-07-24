@@ -1422,6 +1422,10 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 ></details>
 
+><details><summary>Взаимная блокировка</summary>
+>
+></details>
+
 
 </details>
 
