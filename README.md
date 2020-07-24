@@ -1511,6 +1511,15 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 
 </details>
 
+
+<details><summary>ГЛАВА 12. "Перечисления, автоупаковка и аннотации"</summary>
+
+><details><summary>Перечисления</summary>
+>
+></details>
+
+</details>
+
 ---
 <details><summary>Шпаргалка...</summary>
 
