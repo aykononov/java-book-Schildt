@@ -1391,6 +1391,12 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 ></details>
 
+><details><summary>Оператор synchronized</summary>
+>
+>Общая форма оператора *synchronized* с синхронизированным блоком операторов.
+></details>
+
+
 </details>
 
 ---
