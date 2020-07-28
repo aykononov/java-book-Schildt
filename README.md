@@ -1693,6 +1693,12 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >```   
 ></details>
 
+><details><summary>Автоупаковка</summary>
+>
+>
+>
+></details>
+
 
 </details>
 
