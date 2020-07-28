@@ -1,4 +1,5 @@
 package Chapter09.VariablesInInterfaces;
+
 import java.util.Random;
 
 // Реализация автоматизированной системы "принятия решений"
