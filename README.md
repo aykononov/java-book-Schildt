@@ -1842,7 +1842,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[Chapter12/Package05/Meta3 - Показать все аннотации для класса и метода](https://github.com/aykononov/JavaSchildt/blob/master/Chapter12/Package05/Meta3.java "Посмотреть пример Java")
 ></details>
 
-><details><summary>ИнтepфeйcAnnotatedElement</summary>
+><details><summary>Интepфeйc AnnotatedElement</summary>
 >
 >
 ></details>
