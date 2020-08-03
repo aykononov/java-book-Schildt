@@ -1,6 +1,8 @@
 package Chapter12.Package06;
 
 // Продемонстрировать применение нескольких типовых аннотаций
+import Chapter12.Package05.What;
+
 import java.lang.annotation.*;
 import java.lang.reflect.*;
 
@@ -24,7 +26,7 @@ import java.lang.reflect.*;
 
 // Аннотация, которую можно применить к параметру типа
 @Target(ElementType.TYPE_PARAMETER)
-@interface What {
+@interface What2 {
     String description();
 }
 
