@@ -6,7 +6,7 @@ package Chapter10;
 // Эта программа содержит ошибку, и поэтому она не подлежит компиляции
 class ThrowsDemo {
     static void throwOne() {
-        System.out.println("B теле метода throwOne() .");
+        System.out.println("B теле метода throwOne()");
         throw new IllegalAccessException("дeмoнcтpaция");
     }
     public static void main(String args[J) {
