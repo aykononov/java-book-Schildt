@@ -2070,7 +2070,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >// применить типовую аннотацию в операторе new
 >@Unique TypeAnnoDemo<Integer> ob2 = new TypeAnnoDemo<Integer>();
->     Object x = new Integer(10);
+>    Object x = new Integer(10);
 >    Integer y;
 >
 >// применить типовую аннотацию в приведении типов
