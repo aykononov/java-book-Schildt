@@ -2256,6 +2256,16 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[Chapter13/Package01/PrintWriterDemo - Продемонстрировать применение класса PrintWriter](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package01/PrintWriterDemo.java "Посмотреть пример Java")
 ></details>
 
+><details><summary>Чтение и запись данных в файлы</summary>
+>
+>Для ввода-вывода данных в файлы чаще всего применяются классы *FileinputStream* и *FileOutputStream*, которые создают потоки ввода-вывода *байтов*, связанные с файлами. Чтобы *открыть файл для ввода-вывода данных*, достаточно создать объект одного из этих классов, указав *имя файла* в качестве аргумента конструктора. У обоих классов имеются и дополнительные конструкторы, но в представленных далее примерах будут употребляться только следующие конструкторы:  
+>```java
+>FileinputStream(String имя_файла)
+>    throws FileNotFoundException
+>FileOutputStream(String имя_файла)
+>    throws FileNotFoundException
+>```
+></details>
 
 </details>
 
