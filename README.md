@@ -2211,7 +2211,10 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >```java
 >String readLine() throws IOException  
 >```  
->[Chapter13/Package01/BRReadLines - Чтение символьных строк с консоли средствами класса BufferedReader](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package01/BRReadLines.java "Посмотреть пример Java")
+>[Chapter13/Package01/BRReadLines - Чтение символьных строк с консоли средствами класса BufferedReader](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package01/BRReadLines.java "Посмотреть пример Java")  
+>
+>В следующем далее примере программы демонстрируется простейший текстовый редактор. С этой целью сначала создается массив объектов типа String, а затем читаются текстовые строки, каждая из которых сохраняется в элементе массива. Чтение производится до 100 строк или до тех пор, пока не будет введено слово "стоп". Для чтения данных с консоли применяется класс BufferedReader.
+>[Chapter13/Package01/TinyEdit - Простейший текстовый редактор](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package01/TinyEdit.java "Посмотреть пример Java") 
 ></details>
 
 

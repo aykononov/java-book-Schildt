@@ -9,8 +9,8 @@ class BRReadLines {
         //создать поток ввода типа BufferedReader, используя стандартный поток ввода System.in
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str;
-        System.out.println("Bвeдитe строки текста.");
-        System.out.println("Bвeдитe 'стоп' для завершения.");
+        System.out.println("Bвeдитe строки текста через <Enter>.");
+        System.out.println("Bвeдитe 'стоп' для завершения:");
         do {
             str = br.readLine();
             System.out.println(str);
@@ -18,8 +18,8 @@ class BRReadLines {
     }
 }
 /* ---------------------------
-Bвeдитe строки текста.
-Bвeдитe 'стоп' для завершения.
+Bвeдитe строки текста через <Enter>.
+Bвeдитe 'стоп' для завершения:
 1234 abc
 стоп
  */
