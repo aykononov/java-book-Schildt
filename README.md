@@ -2296,7 +2296,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[Chapter13/Package02/ShowFile - Отображение содержимого текстового файла](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package02/ShowFile.java "Посмотреть пример Java")
 >
 >Иногда проще заключить все части программы, открывающие файл и получающие доступ к его содержимому, в один блок оператора try, вместо того чтобы разделять его на два блока, а затем закрыть файл в блоке оператора finally. В качестве иллюстрации ниже показан другой способ написания программы ShowFile из предыдущего примера.  
->[Chapter13/Package02/ShowFile2 - Отображение содержимого текстового файла](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package02/ShowFile.java "Посмотреть пример Java")
+>[Chapter13/Package02/ShowFile2 - Отображение содержимого текстового файла в одном блоке оператора try](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package02/ShowFile.java "Посмотреть пример Java")
 ></details>
 
 </details>
