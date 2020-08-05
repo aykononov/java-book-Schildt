@@ -15,7 +15,7 @@ import java.io.*;
 class ShowFile {
     public static void main(String[] args) {
         int i;
-        FileInputStream fis;
+        FileInputStream fin;
 
         // Сначала проверяем, что имя файла указано
         if (args.length != 1) {
@@ -26,7 +26,7 @@ class ShowFile {
 
         // Пробуем открыть файл
         try {
-            fis = new FileInputStream(args[0]);
+            fin = new FileInputStream(args[0]);
         } catch (FileNotFoundException e) {
             System.out.println("Heвoзмoжнo открыть файл");
             return;
@@ -36,7 +36,7 @@ class ShowFile {
         // Далее из него читаются символы до тех пор, пока не встретится признак конца файла
         try {
             do {
-                i = fis.read();
+                i = fin.read();
                 if (i != -1) System.out.print((char) i);
             } while (i != -1);
         } catch (IOException e) {
@@ -48,7 +48,7 @@ class ShowFile {
 
             // закрыть файл при выходе из блока оператора try
             try {
-                fis.close();
+                fin.close();
             } catch (IOException e) {
                 System.out.println("При ошибке закрытия файла");
             }
@@ -56,7 +56,7 @@ class ShowFile {
 
         // Закрываем файл
         try {
-            fis.close();
+            fin.close();
         } catch (IOException e) {
             System.out.println("Oшибкa закрытия файла");
         }
