@@ -2389,8 +2389,8 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >}
 >```
 >
->Совместим оба класса и выполним чтение из одного и запись в другой файл:
->[Chapter13/Package02/ReadWriteFile - Пример чтение из одного и запись в другой файл](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package02/ReadWriteFile.java "Посмотреть пример Java")
+>Совместим оба класса и выполним чтение из одного и запись в другой файл:  
+>[Chapter13/Package02/ReadWriteFile - Пример чтение из одного и запись в другой файл](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package02/ReadWriteFile.java "Посмотреть пример Java")  
 >Классы FileInputStream и FileOutputStream предназначены прежде всего для записи двоичных файлов, то есть для записи и чтения байтов. И хотя они также могут использоваться для работы с текстовыми файлами, но все же для этой задачи больше подходят другие классы.
 
 ></details>
