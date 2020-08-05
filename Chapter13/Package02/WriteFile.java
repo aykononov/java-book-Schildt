@@ -1,5 +1,5 @@
 package Chapter13.Package02;
-// Запись файлов и класс FileOutputStream
+// Пример записи строки в файл TEST.txt
 import java.io.*;
 class WriteFile {
     public static void main(String[] args) {
