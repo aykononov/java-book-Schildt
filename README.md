@@ -2655,6 +2655,11 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 > 
 ></details>
 
+><details><summary>Обобщения оперируют только ссылочными типами</summary>
+>
+>
+></details>
+
 </details>
 
 ---
