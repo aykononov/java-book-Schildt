@@ -2399,6 +2399,33 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 ></details>
 
+><details><summary>Чтение и запись текстовых файлов. Класс FileWriter. Класс FileReader</summary>
+>
+>Для полноценной работы с текстовыми файлами служат совсем другие классы, которые являются наследниками абстрактных классов *Reader* и *Writer*.
+>
+>Класс *FileWriter* является производным от класса *Writer*. Он используется для записи текстовых файлов.
+>Чтобы создать объект *FileWriter*, можно использовать один из следующих конструкторов:
+>```
+>FileWriter(File file)
+>FileWriter(File file, boolean append)
+>FileWriter(FileDescriptor fd)
+>FileWriter(String fileName)
+>FileWriter(String fileName, boolean append)
+>```  
+>Так, в конструктор передается либо путь к файлу в виде строки, либо объект File, который ссылается на конкретный текстовый файл. Параметр *append* указывает, должны ли данные дозаписываться в конец файла (если параметр равен true), либо файл должен перезаписываться.  
+>
+>Класс *FileReader* наследуется от абстрактного класса *Reader* и предоставляет функциональность для чтения текстовых файлов.
+>Для создания объекта *FileReader* мы можем использовать один из его конструкторов:
+>```java
+>FileReader(String fileName) 
+>FileReader(File file)
+>FileReader(FileDescriptor fd)
+>```  
+> 
+>[Chapter13/FileWriterReaderDemo - Записать текст в файл и прочитать](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/FileWriterDemo.java "Посмотреть пример Java")
+>
+></details>
+
 ><details><summary>Модификаторы доступа transient и volatile</summary>
 >
 >В языке J ava определяются два интересных модификатора доступа: *transient* и *volatile*. Эти модификаторы предназначены для особых случаев. Когда переменная-экземпляр объявлена как transient, ее значение не должно сохраняться, когда сохраняется объект, как показано ниже.

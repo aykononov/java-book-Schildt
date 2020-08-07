@@ -1,13 +1,13 @@
 package Chapter13;
-// Создание, чтение одного файла и копирование в другой файл
+// Создание, чтение одного файла и копирование в другой файл по байтам
 import java.io.*;
 class WriteReadSaveToFile {
     public static void main(String[] args) {
 
         String text = "Test\n1234"; // Входящая строка символов
         String path = "./Chapter13/"; // Путь к файлу
-        String file = "File.txt";
-        String filesave = "FileSave.txt";
+        String file = "File.txt"; // Имя файла
+        String filesave = "FileSave.txt"; // Копия файла
 
         try (FileOutputStream fout = new FileOutputStream(path + file); // Объект вывода для записи
              FileInputStream finp = new FileInputStream(path + file);
@@ -61,4 +61,6 @@ Test
 Test
 1234
 Файл прочтен успшено.
+
+Копирование в новый файл FileSave.txt - выполнено успешно.
  */
