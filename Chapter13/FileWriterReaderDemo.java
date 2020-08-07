@@ -33,7 +33,7 @@ class FileWriterReaderDemo {
 
             // Также мы можем считывать в промежуточный буфер из массива символов
             System.out.println("\n");
-            System.out.println("Считываем в промежуточный буфер");
+            System.out.println("Считываем в промежуточный буфер.");
             //char[] buffer = new char[text.length()];
             char[] buffer = new char[256];
             int b;
@@ -71,7 +71,7 @@ class FileWriterReaderDemo {
 Test
 1234
 
-Считываем в промежуточный буфер
+Считываем в промежуточный буфер.
 Test
 1234
 
