@@ -29,9 +29,9 @@ class FileWriterReaderDemo {
             e.printStackTrace();
         }
 
+        // Также мы можем считывать в промежуточный буфер из массива символов
         try (FileReader reader = new FileReader(path + file)) {
 
-            // Также мы можем считывать в промежуточный буфер из массива символов
             System.out.println("\n");
             System.out.println("Считываем в промежуточный буфер.");
             //char[] buffer = new char[text.length()];
