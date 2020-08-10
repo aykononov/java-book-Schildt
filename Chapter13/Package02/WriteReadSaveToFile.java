@@ -1,4 +1,4 @@
-package Chapter13;
+package Chapter13.Package02;
 // Создание, чтение одного файла и копирование в другой файл по байтам
 import java.io.*;
 class WriteReadSaveToFile {

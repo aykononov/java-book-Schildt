@@ -1,4 +1,4 @@
-package Chapter13;
+package Chapter13.Package02;
 
 // Записать текст в файл и прочитать
 import java.io.*;
