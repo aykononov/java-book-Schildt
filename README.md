@@ -2765,6 +2765,11 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[Chapter14/Package04/StatsDemo - Продемонстрировать применение класса Stats](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package04/StatsDemo.java "Посмотреть пример Java")    
 ></details>
 
+><details><summary>Применение метасимвольных аргументов</summary>
+>
+>
+></details>
+
 </details>
 
 -------------------------------------------------------------------------------------------
