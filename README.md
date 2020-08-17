@@ -2422,7 +2422,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >FileReader(FileDescriptor fd)
 >```  
 > 
->[Chapter13/Package02/FileWriterReaderDemo - Записать текст в файл и прочитать](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package02/FileWriterDemo.java "Посмотреть пример Java")
+>[Chapter13/Package02/FileWriterReaderDemo - Записать текст в файл и прочитать](https://github.com/aykononov/JavaSchildt/blob/master/Chapter13/Package02/FileWriterReaderDemo.java "Посмотреть пример Java")
 >
 ></details>
 

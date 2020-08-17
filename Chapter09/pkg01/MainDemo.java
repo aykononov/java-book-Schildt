@@ -1,6 +1,6 @@
 package Chapter09.pkg01;
 
-// получить экземпляры различных классов из пакета pl
+// получить экземпляры различных классов из пакета pkg01
 class MainDemo {
     public static void main (String[] args) {
         Protection  pOb = new Protection();
