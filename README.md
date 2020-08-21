@@ -2768,6 +2768,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 ><details><summary>Применение метасимвольных аргументов</summary>
 >
 >
+>
 ></details>
 
 </details>
