@@ -11,9 +11,9 @@ class Stats<T extends Number> {
         nums = o;
     }
 
-    // Тип Т ограничивается сверху классом Number, а следовательно,
-    // компилятору Java теперь известно, что все объекты типа T
-    // могут вызывать метод doubleValue(),поскольку это метод из класса Number.
+    // Тип Т ограничивается сверху классом Number, соответственно,
+    // компилятору Java теперь известно, что все объекты типа T могут
+    // вызывать метод doubleValue(), поскольку это метод из класса Number.
 
 
     // возвратить значение типа double в любом случае
@@ -28,7 +28,7 @@ class Stats<T extends Number> {
 // Продемонстрировать применение класса Stats
 class StatsDemo {
     public static void main(String[] args) {
-        Integer[] inums = {1,2,3,4,5};
+        Integer[] inums = {1, 2, 3, 4, 5};
         Stats<Integer> iOb = new Stats<Integer>(inums);
         double v = iOb.average();
         System.out.println("Cpeднee значение iOb равно: " + v);
