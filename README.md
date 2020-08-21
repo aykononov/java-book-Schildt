@@ -2931,8 +2931,6 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 
 Какие есть финальные Классы в Java ?
 
-Монитор phaser ?
-
 LinkedHashSet - в чем суть колллекции ?
 
 **Final**
