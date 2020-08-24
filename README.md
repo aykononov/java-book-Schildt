@@ -2909,7 +2909,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >```  
 >Это означает, что параметр типа T может быть заменен только указанным *суперклассом* или его подклассами. Следовательно, *суперкласс* объявляет верхнюю границу включительно.  
 >
->[Chapter14/Package04/StatsDemo - Продемонстрировать применение класса Stats](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package04/StatsDemo.java "Посмотреть пример Java")    
+>[Chapter14/Package04/StatsDemo - Продемонстрировать ограничение параметра типа](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package04/StatsDemo.java "Посмотреть пример Java")    
 ></details>
 
 ><details><summary>Применение метасимвольных аргументов</summary>
@@ -2920,6 +2920,16 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >Применяя метасимвольный аргумент, метод sameAvg() можно написать, следующим образом:  
 >```java
+>// Обратите внимание на применение метасимвола постановки
+>boolean sameAvg(Stats<?> ob) {
+>   if (average() == ob.average())
+>       return true;
+>   return false;
+>}
+>```
+>Здесь *метасимвольный* аргумент типа Stats<?> совпадает с любым объектом класса Stats, что позволяет сравнивать средние значения любых двух объектов класса Stаts.
+>
+>[Chapter14/Package05/WildcardDemo - Продемонстрировать применение метасимволов подстановки в качестве аргументов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package05/WildcardDemo.java "Посмотреть пример Java")
 ></details>
 
 </details>

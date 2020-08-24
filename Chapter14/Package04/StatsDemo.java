@@ -1,7 +1,7 @@
 package Chapter14.Package04;
 
 // В этой версии класса Stats аргумент типа Т должен
-// быть классом NumЬer или наследуемым от него классом
+// быть классом Number или наследуемым от него классом
 
 class Stats<T extends Number> {
     T[] nums; //массив класса NumЬer или его подкласса
@@ -25,7 +25,7 @@ class Stats<T extends Number> {
     }
 }
 
-// Продемонстрировать применение класса Stats
+// Продемонстрировать ограничение параметра типа
 class StatsDemo {
     public static void main(String[] args) {
         Integer[] inums = {1, 2, 3, 4, 5};
