@@ -78,7 +78,11 @@ class BoundedWildcard {
         Coords<TwoDimension> tdlocs = new Coords<TwoDimension>(tdOb);
 
         System.out.println("Coдepжимoe объекта tdlocs.");
+
         showXY(tdlocs);
+        // Объект tdlocs относится к типу Coords<TwoDimension>, и его нельзя использовать
+        // для вызова метода showXYZ () или showAll (), поскольку этому препятствуют
+        // ограниченные метасимвольные аргументы в их объявлении.
         // showXYZ(tdlocs); // ОШИБКА!!!, это не  тип ThreeDimension
         // showAll(tdlocs); // ОШИБКА!!!, это не  тип FourDimension
 
