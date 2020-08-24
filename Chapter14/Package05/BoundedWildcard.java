@@ -37,7 +37,6 @@ class Coords <T extends TwoDimension> {
     }
 }
 
-
 class BoundedWildcard {
     static void showXY(Coords<?> c) {
         System.out.println("Koopдинaты Х У:");
@@ -98,3 +97,30 @@ class BoundedWildcard {
         showAll(fdlocs);
     }
 }
+/* -----------------------
+Coдepжимoe объекта tdlocs.
+Koopдинaты Х У:
+0 0
+1 2
+6 7
+-1 -9
+
+Coдepжимoe объекта fdlocs.
+Koopдинaты Х У:
+1 2
+4 5
+7 8
+3 -2
+
+Koopдинaты Х У Z:
+1 2 3
+4 5 6
+7 8 9
+3 -2 -4
+
+Koopдинaты Х У Z T:
+1 2 3 4
+4 5 6 7
+7 8 9 0
+3 -2 -4 1
+ */
