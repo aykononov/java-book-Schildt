@@ -2947,10 +2947,8 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 ><? super подкласс>
 >```
 >В данном случае допустимыми аргументами могут быть только те классы, которые являются суперклассами для указанного *подкласса*. Это исключающее выражение, поскольку оно не включает в себя заданный *подкласс*.
-  
->[Chapter14/Package05/BoundedWildcard - Продемонстрировать Ограниченные метасимвольные аргументы](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package05/BoundedWildcard.java "Посмотреть пример Java")
 >
-> 
+>[Chapter14/Package05/BoundedWildcard - Продемонстрировать Ограниченные метасимвольные аргументы](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package05/BoundedWildcard.java "Посмотреть пример Java")
 ></details>
 
 </details>
