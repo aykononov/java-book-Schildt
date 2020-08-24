@@ -2932,6 +2932,13 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[Chapter14/Package05/WildcardDemo - Продемонстрировать применение метасимволов подстановки в качестве аргументов](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package05/WildcardDemo.java "Посмотреть пример Java")
 ></details>
 
+><details><summary>Ограниченные метасимвольные аргументы</summary>
+>
+>*Ограниченный* метасимвол подстановки задает верхнюю или нижнюю границу для аргумента типа. Это позволяет ограничить типы объектов, которыми будет оперировать метод. Наиболее распространен метасимвол, который налагает ограничение сверху и создается с помощью оператора ext ends почти так же, как и ограниченный тип.
+>
+>[Chapter14/Package05/BoundedWildcard - Продемонстрировать Ограниченные метасимвольные аргументы](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package05/BoundedWildcard.java "Посмотреть пример Java")
+></details>
+
 </details>
 
 

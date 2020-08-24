@@ -23,9 +23,9 @@ class Stats<T extends Number> {
     // Определить равенство двух средних значений
     // с применением метасимвола подстановки
     boolean sameAvg(Stats<?> ob) {
-        if (average() == ob.average())
+        if (average() == ob.average()) {
             return true;
-
+        }
         return false;
     }
 }
