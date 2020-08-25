@@ -2951,6 +2951,18 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[Chapter14/Package05/BoundedWildcard - Продемонстрировать Ограниченные метасимвольные аргументы](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package05/BoundedWildcard.java "Посмотреть пример Java")
 ></details>
 
+><details><summary>Создание обобщенного метода</summary>
+>
+>Рассмотрим объявление обобщенного метода isIn() в следующей строке кода:
+>```java
+>static <T extends Comparable<T>, V extends T>
+>   boolean isIn(T x, V[] y) {
+>}
+>```
+>Параметр типа объявляется *до* типа, возвращаемого методом. Тип T расширяет обобщенный тип *Comparable<T>*, где *Comparable* - это интерфейс, объявляемый в пакете java.lang. В классе, реализующем интерфейс *Comparable*, определяются объекты, которые могут быть упорядочены. Следовательно, указание интерфейса *Comparable* в качестве верхней границы гарантирует, что метод *isIn()* вполне применим к объектам, которые можно сравнивать. Интерфейс *Comparable* является обобщенным, а параметр его типа обозначает тип сравниваемых объектов.  
+>[Chapter14/Package06/GenMethDemo - Продемонстрировать простой обобщенный метод](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package06/GenMethDemo.java "Посмотреть пример Java")
+></details>
+
 </details>
 
 
