@@ -6,6 +6,7 @@ interface MinMax<T extends Comparable<T>> {
     T min();
     T max();
 }
+
 // Реализовать обобщенный интерфейс MinMax
 class ClassMinMax<T extends Comparable<T>> implements MinMax<T> {
     T[] vals;
