@@ -2964,6 +2964,16 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[Chapter14/Package06/GenMethDemo - Продемонстрировать простой обобщенный метод](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package06/GenMethDemo.java "Посмотреть пример Java")
 ></details>
 
+><details><summary>Обобщенные конструкторы</summary>
+>
+>Конструкторы также могут быть *обобщенными*, даже если их классы таковыми не являются.
+>
+>[Chapter14/Package06/GenConsDemo - Использовать обобщенный конструктор](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package06/GenConsDemo.java "Посмотреть пример Java")
+>
+>В конструкторе GenCons() задается параметр обобщенного типа, который может быть производным от класса Number, поэтому конструктор GenCons() можно вызывать с любым числовым типом, включая Integer, Float или Double.
+ Несмотря на то, что класс GenCons не является обобщенным, его конструктор обобщен.
+></details>
+
 </details>
 
 
