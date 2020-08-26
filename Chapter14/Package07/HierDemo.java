@@ -19,6 +19,7 @@ class Gen<T> {
 // где определяется второй параметр типа V
 class Gen2<T, V> extends Gen<T> {
     V ob2;
+
     Gen2(T o, V o2) {
         super(o);
         this.ob2 = o2;
@@ -31,6 +32,7 @@ class Gen2<T, V> extends Gen<T> {
 
 class HierDemo {
     public static void main(String[] args) {
+
         // Создадим объект типа Gen2 для символьных строк целых чисел
         Gen2<String, Integer> siOb = new Gen2<String, Integer>("Значение: ", 99);
         System.out.print(siOb.getOb());
