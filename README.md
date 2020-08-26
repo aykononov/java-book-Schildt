@@ -3055,6 +3055,14 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[Chapter14/Package07/HierDemo - Пример обобщенного суперкласса и подкласса со своим параметром](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package07/HierDemo.java "Посмотреть пример Java") 
 ></details>
 
+><details><summary>Обобщенный подкласс</summary>
+>
+>*Суперклассом* для *обобщенного* класса вполне может служить и *необобщенный* класс.  
+>В качестве примера представлена следующая программа:
+>
+>[Chapter14/Package08/HierDemo2 - Пример обобщенного суперкласса и подкласса со своим параметром](https://github.com/aykononov/JavaSchildt/blob/master/Chapter14/Package08/HierDemo2.java "Посмотреть пример Java")
+></details>
+
 </details>
 
 
