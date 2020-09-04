@@ -1,5 +1,6 @@
 package Chapter15.Package02;
 
+// Определение ФАКТОРИАЛА используя Лямбда-выражение
 interface Numeric {
     int getNum(int n);
 }
