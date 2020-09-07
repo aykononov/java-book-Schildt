@@ -3209,7 +3209,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >
 >Для передачи лямбда-выражения в качестве аргумента параметр, получающий это выражение в качестве аргумента, должен иметь тип функционального интерфейса, совместимого с этим лямбда-выражением.
 >
->[Chapter15/Package03/LambdasAsArgumentsDemo - Передать лямбда-выражение в качестве аргумента вызываемому методу](https://github.com/aykononov/JavaSchildt/blob/master/Chapter15/Package03/LambdasAsArgumentsDemo.java "Посмотреть пример Java")
+>[Chapter15/Package04/LambdasAsArgumentsDemo - Передать лямбда-выражение в качестве аргумента вызываемому методу](https://github.com/aykononov/JavaSchildt/blob/master/Chapter15/Package04/LambdasAsArgumentsDemo.java "Посмотреть пример Java")
 ></details>
 
 </details>
