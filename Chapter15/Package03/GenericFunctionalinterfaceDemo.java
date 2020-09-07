@@ -4,7 +4,7 @@ package Chapter15.Package03;
 
 // Обобщенный функциональный интерфейс
 interface SomeFunc<T> {
-    T getfunc(T t);
+    T getFunc(T t);
 }
 public class GenericFunctionalinterfaceDemo {
     public static void main(String[] args) {
@@ -16,8 +16,8 @@ public class GenericFunctionalinterfaceDemo {
             }
             return result;
         };
-        System.out.println("Лямбдa обращается на " + reverse.getfunc("Лямбдa") );
-        System.out.println("Bыpaжeниe обращается на " + reverse. getfunc ( "Выражение" ) ) ;
+        System.out.println("Лямбдa обращается на :" + reverse.getFunc("Лямбдa"));
+        System.out.println("Bыpaжeниe обращается на :" + reverse. getFunc ( "Выражение" ));
 
         // использовать целочисленный вариант функционального интерфейса SomeFunc
         SomeFunc<Integer> factorial = (n) -> {
@@ -27,8 +27,8 @@ public class GenericFunctionalinterfaceDemo {
             }
             return result;
         };
-        System.out.println("Факториал числа 3 равен: " + factorial.getfunc(3));
-        System.out.println("Факториал числа 5 равен: " + factorial.getfunc(5));
+        System.out.println("Факториал числа 3 равен: " + factorial.getFunc(3));
+        System.out.println("Факториал числа 5 равен: " + factorial.getFunc(5));
     }
 }
 /* ------------------------------
