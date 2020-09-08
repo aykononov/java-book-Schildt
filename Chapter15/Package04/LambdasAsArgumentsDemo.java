@@ -3,7 +3,8 @@ package Chapter15.Package04;
 interface StringFunc {
     String getFunc(String n);
 }
-public class LambdasAsArgumentsDemo {
+
+class LambdasAsArgumentsDemo {
     // Первый параметр этого метода имеет тип функционального интерфейса.
     // Ему можно передать ссылку на любой экземпляр этого интерфейса,
     // включая экземпляр, создаваемый в лямбда-выражении.

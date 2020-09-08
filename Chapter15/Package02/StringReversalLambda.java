@@ -3,7 +3,8 @@ package Chapter15.Package02;
 interface StringFunc {
     String getReversal(String str);
 }
-public class StringReversalLambda {
+
+class StringReversalLambda {
     public static void main(String[] args) {
         StringFunc reverse = (str) -> {
             String result = "";

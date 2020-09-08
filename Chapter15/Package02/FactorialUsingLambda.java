@@ -4,7 +4,8 @@ package Chapter15.Package02;
 interface Numeric {
     int getNum(int n);
 }
-public class FactorialUsingLambda {
+
+class FactorialUsingLambda {
     public static void main(String[] args) {
         Numeric factorial = (n) -> {
             int result = 1;

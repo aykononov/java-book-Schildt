@@ -6,7 +6,8 @@ package Chapter15.Package03;
 interface SomeFunc<T> {
     T getFunc(T t);
 }
-public class GenericFunctionalinterfaceDemo {
+
+class GenericFunctionalinterfaceDemo {
     public static void main(String[] args) {
         // использовать строковый вариант функционального интерфейса SomeFunc
         SomeFunc<String> reverse = (str) -> {
