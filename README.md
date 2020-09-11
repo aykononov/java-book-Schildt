@@ -3358,16 +3358,19 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >appdemo    simplefunc
 >```
 >
->В каталоге **.\demo\appsrc\appfunc\appfunc\simplefunc** создадим файл **SimpleMathFuncs.java**
+>В каталоге **.\demo\appsrc\appfunc\appfunc\simplefunc**  
+>создадим файл **SimpleMathFuncs.java**
 >
 >[.\demo\appsrc\appfunc\appfunc\simplefunc\SimpleMathFuncs.java - Простые математические функции](https://github.com/aykononov/JavaSchildt/tree/master/Chapter16/demo/appsrc/appfunc/appfunc/simplefunc/SimpleMathFuncs.java "Посмотреть пример Java")
 >
->В каталоге **.\demo\appsrc\apprun\apprun\appdemo** создадим файл **AppRunDemo.java**  
+>В каталоге **.\demo\appsrc\apprun\apprun\appdemo**  
+>создадим файл **AppRunDemo.java**  
 >В этом файле вызываются методы из класса **SimpleMathFuncs**.
 > 
 >[.\demo\appsrc\apprun\apprun\appdemo\AppRunDemo.java - Продемонстрировать модульное приложение](https://github.com/aykononov/JavaSchildt/tree/master/Chapter16/demo/appsrc/apprun/apprun/appdemo/AppRunDemo.java "Посмотреть пример Java")
 >
->Далее в каталоге **.\demo\appsrc\appfunc** определим новый файл **module-info.java** со следующим кодом:
+>Далее в каталоге **.\demo\appsrc\appfunc**  
+>определим новый файл **module-info.java** со следующим кодом:
 >```java
 >// Определение модуля математических функций
 >module appfunc {
@@ -3375,7 +3378,8 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >    exports Chapter16.demo.appsrc.appfunc.appfunc.simplefunc;
 >}
 >```
->В каталоге **.\demo\appsrc\apprun** тоже определим новый файл **module-info.java** со следующим кодом:
+>В каталоге **.\demo\appsrc\apprun**   
+>также определим новый файл **module-info.java** со следующим кодом:
 >```java
 >// Определение главного модуля приложения
 >module apprun {
