@@ -3351,9 +3351,9 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >      appsrc
 >      /    \
 >     /      \
-> apprun    appfunc
+>apprun     appfunc
 >    |        |
-> apprun    appfunc
+>apprun     appfunc
 >    |        |
 >appdemo    simplefunc
 >```
@@ -3363,14 +3363,24 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >[.\demo\appsrc\appfunc\appfunc\simplefunc\SimpleMathFuncs.java - Простые математические функции](https://github.com/aykononov/JavaSchildt/tree/master/Chapter16/demo/appsrc/appfunc/appfunc/simplefunc/SimpleMathFuncs.java "Посмотреть пример Java")
 >
 >В каталоге **.\demo\appsrc\apprun\apprun\appdemo** создадим файл **AppRunDemo.java**  
->В этом файле вызываются методы из класса SimpleMathFuncs.
+>В этом файле вызываются методы из класса **SimpleMathFuncs**.
 > 
 >[.\demo\appsrc\apprun\apprun\appdemo\AppRunDemo.java - Продемонстрировать модульное приложение](https://github.com/aykononov/JavaSchildt/tree/master/Chapter16/demo/appsrc/apprun/apprun/appdemo/AppRunDemo.java "Посмотреть пример Java")
 >
->
->В каталоге demo определим новый файл module-info.java со следующим кодом:
+>Далее в каталоге **.\demo\appsrc\appfunc** определим новый файл **module-info.java** со следующим кодом:
 >```java
->module demo {
+>// Определение модуля математических функций
+>module appfunc {
+>    // экспортировать пакет appfunc.simplefunc
+>    exports Chapter16.demo.appsrc.appfunc.appfunc.simplefunc;
+>}
+>```
+>В каталоге **.\demo\appsrc\apprun** тоже определим новый файл **module-info.java** со следующим кодом:
+>```java
+>// Определение главного модуля приложения
+>module apprun {
+>   // определение модуля, требуется модуль appfunc
+>   requires appfunc;
 >}
 >```
 >
@@ -3395,12 +3405,29 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >    }
 >}
 >```
->Затем для компиляции модуля в среде Windows, выполним следующую команду:
+>
+>**Компиляция и выполнение первого примера модульного приложения**
+>
+>Для компиляции модуля в среде Windows, выполним следующие команды для (SimpleMathFuncs.java и module-info.java):
 >```
->javac .\module-info.java .\com\example\hello\Hello.java
+>javac -d appmodules\appfunc appsrc\appfunc\appfunc\simplefunc\SimpleMathFuncs.java
+>javac -d appmodules\appfunc appsrc\appfunc\module-info.java
+>```
+>Можно объединить эти две команды в одну:
+>``` 
+>javac --module-path appmodules -d appmodules\appfunc appsrc\appfunc\module-info.java appsrc\appfunc\appfunc\simplefunc\SimpleMathFuncs.java
 >```
 >
-
+>Далее выполним компиляцию для (AppRunDemo.java и module-info.java):
+>``` 
+>javac --module-path appmodules -d appmodules\apprun appsrc\apprun\module-info.java appsrc\apprun\apprun\appdemo\AppRunDemo.java
+>```
+>
+>Запуск модульного приложение в среде Windows по следующей команде:
+>```
+>chcp 65001
+>java --module-path appmodules -m apprun/Chapter16.demo.appsrc.apprun.apprun.appdemo.AppRunDemo
+>```
 
 </details>
 
