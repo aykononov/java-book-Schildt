@@ -3358,8 +3358,11 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >appdemo    simplefunc
 >```
 >В каталоге .\demo\appsrc\appfunc\appfunc\simplefunc создадим файл SimpleMathFuncs.java
->[Chapter15/Package09/FactorialUseFunctionInterface - Определение ФАКТОРИАЛА используя предопределенный функциональный интерфейс](https://github.com/aykononov/JavaSchildt/blob/master/Chapter15/Package09/FactorialUseFunctionInterface.java "Посмотреть пример Java")
+>[.\demo\appsrc\appfunc\appfunc\simplefunc\SimpleMathFuncs.java - простые математические функции](https://github.com/aykononov/JavaSchildt/tree/master/Chapter16/demo/appsrc/appfunc/appfunc/simplefunc/SimpleMathFuncs.java "Посмотреть пример Java")
 >
+>В каталоге .\demo\appsrc\apprun\apprun\appdemo создадим файл AppRunDemo.java  
+>В этом файле вызываются методы из класса SimpleMathFuncs. 
+>>[.\demo\appsrc\apprun\apprun\appdemo\AppRunDemo.java - Продемонстрировать модульное приложение](https://github.com/aykononov/JavaSchildt/tree/master/Chapter16/demo/appsrc/apprun/apprun/appdemo/AppRunDemo.java "Посмотреть пример Java")
 >В каталоге demo определим новый файл module-info.java со следующим кодом:
 >```java
 >module demo {
