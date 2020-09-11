@@ -3359,13 +3359,14 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >```
 >
 >В каталоге **.\demo\appsrc\appfunc\appfunc\simplefunc**  
->создадим файл **SimpleMathFuncs.java**
+>создадим файл **SimpleMathFuncs.java** 
+>В этом классе определяются три статических метода, реализующих простые математические функции.
 >
 >[.\demo\appsrc\appfunc\appfunc\simplefunc\SimpleMathFuncs.java - Простые математические функции](https://github.com/aykononov/JavaSchildt/tree/master/Chapter16/demo/appsrc/appfunc/appfunc/simplefunc/SimpleMathFuncs.java "Посмотреть пример Java")
 >
 >В каталоге **.\demo\appsrc\apprun\apprun\appdemo**  
 >создадим файл **AppRunDemo.java**  
->В этом файле вызываются методы из класса **SimpleMathFuncs**.
+>В этом классе вызываются методы из класса **SimpleMathFuncs**.
 > 
 >[.\demo\appsrc\apprun\apprun\appdemo\AppRunDemo.java - Продемонстрировать модульное приложение](https://github.com/aykononov/JavaSchildt/tree/master/Chapter16/demo/appsrc/apprun/apprun/appdemo/AppRunDemo.java "Посмотреть пример Java")
 >
