@@ -3329,7 +3329,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 
 <small>
 
-*!!! эта глава (Chapter16) для Idea добавляется в исключения и выполняется из кмандной строки !!!* 
+*эта глава (Chapter16) для Idea добавляется в исключения и выполняется из кмандной строки* 
 </small>
 
 
@@ -3365,7 +3365,7 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >```
 >
 >В каталоге **.\demo\appsrc\appfunc\appfunc\simplefunc**  
->создадим файл **SimpleMathFuncs.java** 
+>создадим файл **SimpleMathFuncs.java**  
 >В этом классе определяются три статических метода, реализующих простые математические функции.
 >
 >[.\demo\appsrc\appfunc\appfunc\simplefunc\SimpleMathFuncs.java - Простые математические функции](https://github.com/aykononov/JavaSchildt/tree/master/Chapter16/demo/appsrc/appfunc/appfunc/simplefunc/SimpleMathFuncs.java "Посмотреть пример Java")
@@ -3392,19 +3392,6 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >module apprun {
 >   // определение модуля, требуется модуль appfunc
 >   requires appfunc;
->}
->```
->
->Далее в каталоге ./demo создадим папку /com. В папке /com создадим папку /example, а в папке .demo/com/example - папку /hello.
->
->Получим структуру **.demo/com/example/hello** и создадим в ней новый файл **Hello.java**:
->```java
->package Chapter16.demo.com.example.hello;
->
->public class Hello{
->    public static void main(String[] args){
->        System.out.println("Hello Demo Module!");
->    }
 >}
 >```
 >
