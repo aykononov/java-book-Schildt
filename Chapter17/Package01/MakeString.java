@@ -1,5 +1,6 @@
 package Chapter17.Package01;
 
+// Создать один объект типа String из другого
 class MakeString {
     public static void main(String[] args) {
         char[] chrs = {'J','a','v','a'};
