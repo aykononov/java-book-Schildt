@@ -3775,6 +3775,9 @@ vaRest ( int ... ) и vaTest (boolean ... ). Напомним, что языко
 >Эти формы метода *substring()* действуют таким же образом, как и рассмотренные ранее их аналоrи из класса *String*. 
 ></details>
 
+</details>
+
+<details><summary>ГЛАВА 18. "Пакет java.lang"</summary>
 
 </details>
 
