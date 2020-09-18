@@ -4110,6 +4110,14 @@
 >[Chapter18/Package03/PkgTest - Продемонстрировать применение класса Package](https://github.com/aykononov/JavaSchildt/blob/master/Chapter18/Package03/PkgTest.java "Посмотреть пример Java")
 ></details>
 
+
+><details><summary>Класс Module</summary>
+>
+>
+>
+></details>
+
+
 </details>
 
 -------------------------------------------------------------------------------------------
