@@ -18,6 +18,7 @@ class Address {
         this.code = code;
     }
 
+    // переопределенный метод класса Object
     public String toString() {
         return this.name + "\n" + this.street + "\n" +
                this.city + " " + this.state + " " + this.code;
