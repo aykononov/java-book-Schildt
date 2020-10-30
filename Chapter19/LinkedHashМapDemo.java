@@ -23,8 +23,9 @@ class LinkedHashМapDemo {
         for (Map.Entry<String, Double> me : set) {
             System.out.println(me.getKey() + ": " + me.getValue());
         }
-
         System.out.println();
+
+        // внести сумму 1000 на счет "Джона Доу"
         double balance = lhm.get("Джoн Доу");
         lhm.put("Джoн Доу", balance + 1000.00);
         System.out.println("Hoвый остаток на счете Джона Доу: " + lhm.get("Джoн Доу"));
