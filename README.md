@@ -2,7 +2,7 @@
 
 ## Книга "Java полное руководство - Герберт Шилдт, 10-е издание, 2018."
 
-### [Java: The Complete Reference, Tenth Edition](http://www.williamspublishing.com/Books/978-5-6040043-6-4.html)
+### [Java: The Complete Reference, Tenth Edition](http://www.williamspublishing.com/Books/978-5-6040043-6-4.html "http://www.williamspublishing.com/Books/978-5-6040043-6-4.html")
 
 ## Book "The Complete Reference  - Herbert Schildt, 10-e, 2018."
 
@@ -10,7 +10,7 @@
 
 (*Информация содержит основные моменты с примерами кода...*) 
 
-[Содержание ...](https://github.com/aykononov/book-on-java-Schildt/blob/master/README.md "Содержание открыть ...")
+[Содержание ...](https://github.com/aykononov/book-on-java-Schildt/blob/master/README.md "весь список ...")
 
 </small>
 
