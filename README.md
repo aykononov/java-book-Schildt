@@ -4,6 +4,12 @@
 ## The Complete Reference  - Herbert Schildt, 10-e, 2018.
 ###### (*Информация содержит основные моменты с примерами кода...*)
 
+<small>
+ 
+[прочитать readme ...](https://github.com/aykononov/book-on-java-Schildt/edit/master/README.md "открыть ...")
+
+</small>
+
 <details><summary>ГЛАВА 1. "История и развитие языка Java"</summary>
 
 >**Версия Java SE 9**    
