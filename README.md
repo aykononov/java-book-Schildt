@@ -6,7 +6,7 @@
 
 <small>
  
-[прочитать readme ...](https://github.com/aykononov/book-on-java-Schildt/edit/master/README.md "открыть ...")
+[посмотреть readme ...](https://github.com/aykononov/book-on-java-Schildt/blob/master/README.md "открыть ...")
 
 </small>
 
