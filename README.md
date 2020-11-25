@@ -2,11 +2,10 @@
 
 ## Java полное руководство - Герберт Шилдт, 10-е издание, 2018.
 ## The Complete Reference  - Herbert Schildt, 10-e, 2018.
-###### (*Информация содержит основные моменты с примерами кода...*)
 
 <small>
- 
-[посмотреть readme ...](https://github.com/aykononov/book-on-java-Schildt/blob/master/README.md "открыть ...")
+
+(*Информация содержит основные моменты с примерами кода...*) [Содержание ...](https://github.com/aykononov/book-on-java-Schildt/blob/master/README.md "Содержание открыть ...")
 
 </small>
 
