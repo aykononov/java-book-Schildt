@@ -5,7 +5,9 @@
 
 <small>
 
-(*Информация содержит основные моменты с примерами кода...*) [Содержание ...](https://github.com/aykononov/book-on-java-Schildt/blob/master/README.md "Содержание открыть ...")
+(*Информация содержит основные моменты с примерами кода...*) 
+
+[Содержание ...](https://github.com/aykononov/book-on-java-Schildt/blob/master/README.md "Содержание открыть ...")
 
 </small>
 
