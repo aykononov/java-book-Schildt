@@ -1292,6 +1292,14 @@
 >
 ></details>
 
+><details><summary>Оператор return в catch и finally</summary>
+>
+>Если оператор `return` содержится и в блоке `catch` и в `finally`, то вернется из блока `finally`. 
+>
+>[Chapter10/ReturnCatchFinally - Оператор return в catch и finally](https://github.com/aykononov/JavaSchildt/blob/master/Chapter10/ReturnCatchFinally.java "Посмотреть пример Java")
+>
+></details>
+
 </details>
 
 <details><summary>ГЛАВА 11. "Многопоточное программирование"</summary>
