@@ -1,6 +1,9 @@
-# Default ignored files
-/out/
-/.idea/
-/*.iml
-/*.sh
-/*.cmd
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
