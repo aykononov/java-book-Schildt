@@ -1,6 +1,6 @@
 <small>
 
-## Книга "Java полное руководство - Герберт Шилдт, 10-е издание, 2018."
+## Книга "Java полное руководство - Герберт Шилдт, 10-е издание, 2018г."
 
 ### [Java: The Complete Reference, Tenth Edition](http://www.williamspublishing.com/Books/978-5-6040043-6-4.html "http://www.williamspublishing.com/Books/978-5-6040043-6-4.html")
 
